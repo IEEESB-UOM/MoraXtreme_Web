@@ -1,22 +1,41 @@
-# sv
+# README.md
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+# Project Setup
 
-## Creating a project
+This project is designed to connect to and use a PostgreSQL database.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Environment Variables
+
+Create a `.env` file at the root of your project. You can use `.env.example` as a template.
+Example `.env.example`:
+
+```env
+DATABASE_URL=postgres://username:password@localhost:5432/dbname
+PORT=5173
+```
+
+* `DATABASE_URL` → your PostgreSQL connection string
+* `PORT` → random port to make it just work locally
+
+Copy `.env.example` to `.env` and update values as needed:
 
 ```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+cp .env.example .env
 ```
+
+---
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've installed dependencies:
+
+```sh
+npm install
+# or pnpm install
+# or yarn
+```
+
+Start a development server:
 
 ```sh
 npm run dev
@@ -25,6 +44,8 @@ npm run dev
 npm run dev -- --open
 ```
 
+---
+
 ## Building
 
 To create a production version of your app:
@@ -32,7 +53,3 @@ To create a production version of your app:
 ```sh
 npm run build
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
