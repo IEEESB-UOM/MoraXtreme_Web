@@ -10,11 +10,11 @@ Create a `.env` file at the root of your project. You can use `.env.example` as 
 Example `.env.example`:
 
 ```env
-DATABASE_URL=postgres://username:password@localhost:5432/dbname
+DATABASE_URL=mysql://username:password@localhost:5432/dbname
 PORT=5173
 ```
 
-* `DATABASE_URL` → your PostgreSQL connection string
+* `DATABASE_URL` → your MySQL connection string
 * `PORT` → random port to make it just work locally
 
 Copy `.env.example` to `.env` and update values as needed:
