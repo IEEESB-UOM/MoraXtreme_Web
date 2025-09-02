@@ -2,118 +2,91 @@
 	<title>About MoraXtreme - Competition Info</title>
 </svelte:head>
 
-<div class="min-h-screen bg-base-200 py-8">
-	<div class="max-w-4xl mx-auto px-4">
-		<div class="hero bg-primary text-primary-content rounded-lg mb-8">
-			<div class="hero-content text-center py-16">
-				<div class="max-w-md">
-					<h1 class="text-5xl font-bold">MoraXtreme</h1>
-					<p class="py-6 text-lg">The Ultimate Tech Competition for Innovation and Excellence</p>
-				</div>
+<script>
+	// No interactivity needed yet
+</script>
+
+<div class="min-h-screen bg-base-100 text-base-content px-6 md:px-20 py-16">
+	<div class="max-w-7xl mx-auto space-y-20">
+		<!-- Header Section -->
+		<div class="text-center space-y-4">
+			<h1 class="text-4xl md:text-5xl tracking-wider font-display">
+				<span class="font-light">ABOUT</span>
+				<!-- Using primary color from the theme -->
+				<span class="font-bold text-primary">MoraXtreme</span>
+			</h1>
+			<!-- Using base content color with slight opacity for subtitle -->
+			<p class="text-base md:text-lg text-base-content/80 max-w-3xl mx-auto mt-10">
+				Sri Lanka's largest algorithmic coding hackathon, hosted by IEEE Computer Society at the
+				University of Moratuwa.
+			</p>
+		</div>
+
+		<!-- "What is MoraXtreme?" Section -->
+		<div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
+			<div class="lg:col-span-2 flex justify-center lg:justify-start">
+				<img
+					src="/logo.png"
+					alt="MoraXtreme Logo - Algorithmic Coding Competition"
+					class="w-full max-w-xs sm:max-w-sm lg:max-w-full"
+				/>
+			</div>
+
+			<div class="lg:col-span-3 space-y-6 text-center lg:text-left">
+				<h2 class="text-3xl md:text-4xl font-bold font-display">What is MoraXtreme?</h2>
+				<p class="text-base md:text-lg leading-relaxed text-base-content/80 mt-10">
+					MoraXtreme is Sri Lanka’s premier annual algorithmic coding hackathon, proudly organized
+					by the IEEE Computer Society of the University of Moratuwa. Designed as a 12-hour online
+					coding battle, MoraXtreme brings together the brightest minds from universities across the
+					country to showcase their expertise in algorithmic and mathematical problem-solving.
+				</p>
 			</div>
 		</div>
 
-		<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-			<div class="card bg-base-100 shadow-xl">
-				<div class="card-body">
-					<h2 class="card-title text-2xl">What is MoraXtreme?</h2>
-					<p>
-						MoraXtreme is a premier technology competition that brings together the brightest minds 
-						in programming, design, cybersecurity, and data science. Participants compete in various 
-						categories to showcase their skills and win exciting prizes.
-					</p>
-				</div>
+		<!-- Highlights Section -->
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+			<!-- Using base-200 for card backgrounds -->
+			<div class="bg-base-200/40 backdrop-blur-md border border-base-content/10 p-6 rounded-xl flex items-center justify-center h-full min-h-[150px]">
+				<p class="font-bold">Annual 12-hour<br />online coding competition</p>
 			</div>
-
-			<div class="card bg-base-100 shadow-xl">
-				<div class="card-body">
-					<h2 class="card-title text-2xl">Competition Categories</h2>
-					<div class="space-y-2">
-						<div class="badge badge-primary badge-lg">Programming</div>
-						<div class="badge badge-secondary badge-lg">UI/UX Design</div>
-						<div class="badge badge-accent badge-lg">Cybersecurity</div>
-						<div class="badge badge-neutral badge-lg">Data Science</div>
-					</div>
-				</div>
+			<div class="bg-base-200/40 backdrop-blur-md border border-base-content/10 p-6 rounded-xl flex items-center justify-center h-full min-h-[150px]">
+				<p class="font-bold">For university<br />coders nationwide</p>
+			</div>
+			<div class="bg-base-200/40 backdrop-blur-md border border-base-content/10 p-6 rounded-xl flex items-center justify-center h-full min-h-[150px]">
+				<p class="font-bold">Challenges crafted by top<br />algorithmic minds</p>
+			</div>
+			<div class="bg-base-200/40 backdrop-blur-md border border-base-content/10 p-6 rounded-xl flex items-center justify-center h-full min-h-[150px]">
+				<p class="font-bold">Practice ground<br />for global contests like<br />IEEEXtreme</p>
 			</div>
 		</div>
 
-		<div class="card bg-base-100 shadow-xl mb-8">
-			<div class="card-body">
-				<h2 class="card-title text-2xl mb-4">Event Timeline</h2>
-				<div class="timeline timeline-vertical">
-					<div class="timeline-item">
-						<div class="timeline-middle">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.236 4.53L8.93 10.7a.75.75 0 00-1.06 1.061l1.884 1.884a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-						</div>
-						<div class="timeline-start md:text-end mb-10">
-							<time class="font-mono italic">Week 1</time>
-							<div class="text-lg font-black">Registration Opens</div>
-							<div>Open registration for all categories</div>
-						</div>
-						<hr/>
-					</div>
-					<div class="timeline-item">
-						<hr/>
-						<div class="timeline-middle">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.236 4.53L8.93 10.7a.75.75 0 00-1.06 1.061l1.884 1.884a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-						</div>
-						<div class="timeline-end mb-10">
-							<time class="font-mono italic">Week 3</time>
-							<div class="text-lg font-black">Preliminary Round</div>
-							<div>Online preliminary tests and submissions</div>
-						</div>
-						<hr/>
-					</div>
-					<div class="timeline-item">
-						<hr/>
-						<div class="timeline-middle">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.236 4.53L8.93 10.7a.75.75 0 00-1.06 1.061l1.884 1.884a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-						</div>
-						<div class="timeline-start md:text-end mb-10">
-							<time class="font-mono italic">Week 4</time>
-							<div class="text-lg font-black">Finals</div>
-							<div>On-campus final competition and awards ceremony</div>
-						</div>
-					</div>
-				</div>
+		<!-- Core Values, Participation, and Impact Section -->
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+			<div class="bg-base-200/40 backdrop-blur-md border border-base-content/10 p-8 rounded-xl space-y-4">
+				<h3 class="text-xl font-bold font-display">Core Values</h3>
+				<ul class="list-disc list-inside space-y-2 text-base-content/80">
+					<li>Creative problem-solving</li>
+					<li>Team synergy &amp; collaboration</li>
+					<li>Continuous skill growth</li>
+				</ul>
 			</div>
-		</div>
 
-		<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-			<div class="stat bg-base-100 shadow rounded-lg">
-				<div class="stat-title">Prize Pool</div>
-				<div class="stat-value text-primary">$10,000</div>
-				<div class="stat-desc">Total prizes across all categories</div>
+			<div class="bg-base-200/40 backdrop-blur-md border border-base-content/10 p-8 rounded-xl space-y-4">
+				<h3 class="text-xl font-bold font-display">Why Participate?</h3>
+				<ul class="list-disc list-inside space-y-2 text-base-content/80">
+					<li>Experience challenging, fun algorithmic puzzles</li>
+					<li>Enhance coding &amp; analytical skills</li>
+					<li>Network with like-minded peers and experts</li>
+				</ul>
 			</div>
-			<div class="stat bg-base-100 shadow rounded-lg">
-				<div class="stat-title">Participants</div>
-				<div class="stat-value text-secondary">500+</div>
-				<div class="stat-desc">Expected participants</div>
-			</div>
-			<div class="stat bg-base-100 shadow rounded-lg">
-				<div class="stat-title">Duration</div>
-				<div class="stat-value text-accent">4 weeks</div>
-				<div class="stat-desc">From registration to finals</div>
-			</div>
-		</div>
 
-		<div class="card bg-base-100 shadow-xl">
-			<div class="card-body">
-				<h2 class="card-title text-2xl mb-4">Eligibility & Rules</h2>
-				<div class="prose max-w-none">
-					<ul class="list-disc pl-6 space-y-2">
-						<li>Open to all university students with valid student ID</li>
-						<li>Teams can have 1-4 members for most categories</li>
-						<li>Individual participation allowed for all categories</li>
-						<li>Original work only - plagiarism will result in disqualification</li>
-						<li>All submissions must be made before the specified deadlines</li>
-						<li>Participants must attend the final round if selected</li>
-					</ul>
-				</div>
-				<div class="card-actions justify-end mt-6">
-					<a href="/register" class="btn btn-primary">Register Now</a>
-				</div>
+			<div class="bg-base-200/40 backdrop-blur-md border border-base-content/10 p-8 rounded-xl space-y-4">
+				<h3 class="text-xl font-bold font-display">MoraXtreme Impact</h3>
+				<ul class="list-disc list-inside space-y-2 text-base-content/80">
+					<li>Largest algorithmic hackathon in Sri Lanka</li>
+					<li>Builds a competitive coding community</li>
+					<li>Stepping stone to international coding contests</li>
+				</ul>
 			</div>
 		</div>
 	</div>
