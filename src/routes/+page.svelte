@@ -4,6 +4,7 @@
 	import AboutSection from "../components/AboutSection.svelte";
 	import Gallery from "../components/Gallery.svelte";
 	import Timeline from "../components/Timeline.svelte";
+	import CountdownSection from "../components/CountdownSection.svelte";
 
 	let showError = false;
 	let mouseX = 0;
@@ -87,6 +88,7 @@
 
 <div class="min-h-screen bg-[#0c0a15]">
 	<AboutSection />
+	<CountdownSection />
 	<Timeline />
 	<Gallery />
 </div>
