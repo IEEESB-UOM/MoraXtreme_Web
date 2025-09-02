@@ -2,6 +2,7 @@
 	import { page } from "$app/stores";
 	import { onMount } from "svelte";
   import AboutSection from "../components/AboutSection.svelte";
+	import CountdownSection from "../components/CountdownSection.svelte";
 	import Gallery from '../components/Gallery.svelte';
 
 
@@ -77,6 +78,7 @@
 
 <div class="min-h-screen bg-[#0c0a15]">
 	<AboutSection />
+	<CountdownSection />
 	<div class="py-16">
 		<div class="max-w-6xl mx-auto px-4">
 			<h2 class="text-3xl font-bold text-center mb-12">
