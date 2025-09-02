@@ -35,7 +35,7 @@
 			<div class="navbar-center hidden lg:flex">
 				<ul class="menu menu-horizontal px-1">
 					<li><a href="/" class:active={$page.route.id === '/'}>Home</a></li>
-					<li><a href="#about" class:active={$page.route.id === '/about'}>About</a></li>
+					<li><a href="#about">About</a></li>
 					<li><a href="/register" class:active={$page.route.id === '/register'}>Register</a></li>
 					<li><a href="/competition" class:active={$page.route.id === '/competition'}>Competition</a></li>
 					<li><a href="/faq" class:active={$page.route.id === '/faq'}>FAQ</a></li>

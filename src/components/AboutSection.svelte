@@ -50,7 +50,7 @@
 				<h3 class="text-xl font-bold font-display">Core Values</h3>
 				<ul class="list-disc list-inside space-y-2 text-base-content/80 text-sm">
 					<li>Creative problem-solving</li>
-					<li>Team synergy &amp; collaboration</li>
+					<li>Team synergy & collaboration</li>
 					<li>Continuous skill growth</li>
 				</ul>
 			</div>
@@ -59,7 +59,7 @@
 				<h3 class="text-xl font-bold font-display">Why Participate?</h3>
 				<ul class="list-disc list-inside space-y-2 text-base-content/80 text-sm">
 					<li>Experience challenging, fun algorithmic puzzles</li>
-					<li>Enhance coding &amp; analytical skills</li>
+					<li>Enhance coding & analytical skills</li>
 					<li>Network with like-minded peers and experts</li>
 				</ul>
 			</div>
