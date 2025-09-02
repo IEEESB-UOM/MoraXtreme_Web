@@ -43,10 +43,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;500&display=swap" rel="stylesheet">
 </svelte:head>
 
-<div class="text-base-content py-16 px-6 md:px-20 bg-[#0c0a15] relative overflow-hidden">
-    <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(160,32,240,0.05)_0%,transparent_70%)]"></div>
+<div class="text-base-content py-24 px-6 md:px-20 bg-[#0c0a15]">
     
-    <div class="max-w-7xl mx-auto relative z-10 text-center space-y-12">
+    <div class="max-w-7xl mx-auto text-center space-y-12">
         <div class="space-y-6">
             <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white font-display">
                 THE COUNTDOWN BEGINS
