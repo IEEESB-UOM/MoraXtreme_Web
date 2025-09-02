@@ -2,144 +2,139 @@
 	<title>FAQ - MoraXtreme</title>
 </svelte:head>
 
-<div class="min-h-screen bg-base-200 py-8">
-	<div class="max-w-4xl mx-auto px-4">
-		<div class="text-center mb-8">
-			<h1 class="text-4xl font-bold mb-4">Frequently Asked Questions</h1>
-			<p class="text-lg text-base-content/70">Find answers to common questions about MoraXtreme</p>
+<div class="min-h-screen bg-[#0D1126] py-24">
+	<div class="max-w-6xl mx-auto px-4">
+		<div class="text-center mb-16">
+			<h1 class="font-['Orbitron'] font-bold text-5xl text-white mb-8">FAQ</h1>
 		</div>
 
-		<div class="space-y-4">
-			<div class="collapse collapse-plus bg-base-100 shadow">
-				<input type="radio" name="faq-accordion" checked />
-				<div class="collapse-title text-xl font-medium">
-					Who can participate in MoraXtreme?
-				</div>
-				<div class="collapse-content">
-					<p>MoraXtreme is open to all university students with a valid student ID. Both individual participants and teams (1-4 members) are welcome in most categories.</p>
-				</div>
-			</div>
-
-			<div class="collapse collapse-plus bg-base-100 shadow">
+		<div class="max-w-5xl mx-auto space-y-8">
+			<div class="collapse">
 				<input type="radio" name="faq-accordion" />
-				<div class="collapse-title text-xl font-medium">
-					What are the competition categories?
+				<div class="collapse-title bg-purple-900/10 hover:bg-purple-900/20 transition-colors duration-300 rounded-xl p-6 cursor-pointer shadow-[0px_4px_16px_rgba(15,15,35,0.4),0px_2px_8px_rgba(123,44,191,0.2),0px_1px_0px_rgba(255,255,255,0.1)]">
+					<div class="flex items-center justify-between">
+						<span class="font-['Orbitron'] font-bold text-lg text-white">What is MoraXtreme?</span>
+						<span class="text-[#7B2CBF] text-2xl font-bold transition-transform duration-300">+</span>
+					</div>
 				</div>
-				<div class="collapse-content">
-					<p>We have four main categories:</p>
-					<ul class="list-disc list-inside mt-2 space-y-1">
-						<li><strong>Programming:</strong> Algorithm challenges and coding competitions</li>
-						<li><strong>UI/UX Design:</strong> User interface and experience design challenges</li>
-						<li><strong>Cybersecurity:</strong> Security challenges and vulnerability assessments</li>
-						<li><strong>Data Science:</strong> Data analysis and machine learning challenges</li>
-					</ul>
+				<div class="collapse-content p-0">
+					<div class="bg-purple-900/10 rounded-xl p-6 shadow-[0px_4px_16px_rgba(15,15,35,0.4),0px_2px_8px_rgba(123,44,191,0.2),0px_1px_0px_rgba(255,255,255,0.1)]">
+						<div class="flex items-start justify-between mb-4">
+							<h3 class="font-['Orbitron'] font-bold text-lg text-white">What is MoraXtreme?</h3>
+							<button class="text-[#7B2CBF] text-xl font-bold hover:text-purple-300 transition-colors duration-300" on:click={() => {
+								const checkedInput = document.querySelector('input[name="faq-accordion"]:checked');
+								if (checkedInput) checkedInput.checked = false;
+							}}>×</button>
+						</div>
+						<p class="text-white font-['Orbitron'] text-sm leading-relaxed">MoraXtreme is the premier technology competition at University of Moratuwa, featuring challenges in programming. It brings together the brightest minds to compete for a RS 50,000 prize pool.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class="collapse collapse-plus bg-base-100 shadow">
+			<div class="collapse">
 				<input type="radio" name="faq-accordion" />
-				<div class="collapse-title text-xl font-medium">
-					How much does it cost to participate?
+				<div class="collapse-title bg-purple-900/10 hover:bg-purple-900/20 transition-colors duration-300 rounded-xl p-6 cursor-pointer shadow-[0px_4px_16px_rgba(15,15,35,0.4),0px_2px_8px_rgba(123,44,191,0.2),0px_1px_0px_rgba(255,255,255,0.1)]">
+					<div class="flex items-center justify-between">
+						<span class="font-['Orbitron'] font-bold text-lg text-white">When does the event take place?</span>
+						<span class="text-[#7B2CBF] text-2xl font-bold transition-transform duration-300">+</span>
+					</div>
 				</div>
-				<div class="collapse-content">
-					<p>Participation in MoraXtreme is completely <strong>FREE</strong>! We believe in making technology competitions accessible to all students.</p>
+				<div class="collapse-content p-0">
+					<div class="bg-purple-900/10 rounded-xl p-6 shadow-[0px_4px_16px_rgba(15,15,35,0.4),0px_2px_8px_rgba(123,44,191,0.2),0px_1px_0px_rgba(255,255,255,0.1)]">
+						<div class="flex items-start justify-between mb-4">
+							<h3 class="font-['Orbitron'] font-bold text-lg text-white">When does the event take place?</h3>
+							<button class="text-[#7B2CBF] text-xl font-bold hover:text-purple-300 transition-colors duration-300" on:click={() => {
+								const checkedInput = document.querySelector('input[name="faq-accordion"]:checked');
+								if (checkedInput) checkedInput.checked = false;
+							}}>×</button>
+						</div>
+						<p class="text-white font-['Orbitron'] text-sm leading-relaxed">MoraXtreme 10.0 will take place during October. The preliminary rounds begin with online submissions, followed by the final competition on Univercity. Specific dates and venues will be announced to registered participants.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class="collapse collapse-plus bg-base-100 shadow">
+			<div class="collapse">
 				<input type="radio" name="faq-accordion" />
-				<div class="collapse-title text-xl font-medium">
-					What are the prizes?
+				<div class="collapse-title bg-purple-900/10 hover:bg-purple-900/20 transition-colors duration-300 rounded-xl p-6 cursor-pointer shadow-[0px_4px_16px_rgba(15,15,35,0.4),0px_2px_8px_rgba(123,44,191,0.2),0px_1px_0px_rgba(255,255,255,0.1)]">
+					<div class="flex items-center justify-between">
+						<span class="font-['Orbitron'] font-bold text-lg text-white">How do I register for MoraXtreme 10.0</span>
+						<span class="text-[#7B2CBF] text-2xl font-bold transition-transform duration-300">+</span>
+					</div>
 				</div>
-				<div class="collapse-content">
-					<p>We have a total prize pool of $10,000 distributed across all categories:</p>
-					<ul class="list-disc list-inside mt-2 space-y-1">
-						<li>1st Place: $1,500 per category</li>
-						<li>2nd Place: $1,000 per category</li>
-						<li>3rd Place: $500 per category</li>
-						<li>Additional sponsor prizes and swag for all participants</li>
-					</ul>
+				<div class="collapse-content p-0">
+					<div class="bg-purple-900/10 rounded-xl p-6 shadow-[0px_4px_16px_rgba(15,15,35,0.4),0px_2px_8px_rgba(123,44,191,0.2),0px_1px_0px_rgba(255,255,255,0.1)]">
+						<div class="flex items-start justify-between mb-4">
+							<h3 class="font-['Orbitron'] font-bold text-lg text-white">How do I register for MoraXtreme 10.0</h3>
+							<button class="text-[#7B2CBF] text-xl font-bold hover:text-purple-300 transition-colors duration-300" on:click={() => {
+								const checkedInput = document.querySelector('input[name="faq-accordion"]:checked');
+								if (checkedInput) checkedInput.checked = false;
+							}}>×</button>
+						</div>
+						<p class="text-white font-['Orbitron'] text-sm leading-relaxed">Registration is simple! Visit our registration form,  fill in your details, and submit. You can register  as a team of up to 4 members. Registration is completely free and open to all university students.</p>
+					</div>
 				</div>
 			</div>
 
-			<div class="collapse collapse-plus bg-base-100 shadow">
+			<div class="collapse">
 				<input type="radio" name="faq-accordion" />
-				<div class="collapse-title text-xl font-medium">
-					Can I participate in multiple categories?
+				<div class="collapse-title bg-purple-900/10 hover:bg-purple-900/20 transition-colors duration-300 rounded-xl p-6 cursor-pointer shadow-[0px_4px_16px_rgba(15,15,35,0.4),0px_2px_8px_rgba(123,44,191,0.2),0px_1px_0px_rgba(255,255,255,0.1)]">
+					<div class="flex items-center justify-between">
+						<span class="font-['Orbitron'] font-bold text-lg text-white">Is there a registration fee?</span>
+						<span class="text-[#7B2CBF] text-2xl font-bold transition-transform duration-300">+</span>
+					</div>
 				</div>
-				<div class="collapse-content">
-					<p>Yes! You can register for multiple categories, but please note that you'll need to submit separate registrations for each category and manage your time accordingly.</p>
+				<div class="collapse-content p-0">
+					<div class="bg-purple-900/10 rounded-xl p-6 shadow-[0px_4px_16px_rgba(15,15,35,0.4),0px_2px_8px_rgba(123,44,191,0.2),0px_1px_0px_rgba(255,255,255,0.1)]">
+						<div class="flex items-start justify-between mb-4">
+							<h3 class="font-['Orbitron'] font-bold text-lg text-white">Is there a registration fee?</h3>
+							<button class="text-[#7B2CBF] text-xl font-bold hover:text-purple-300 transition-colors duration-300" on:click={() => {
+								const checkedInput = document.querySelector('input[name="faq-accordion"]:checked');
+								if (checkedInput) checkedInput.checked = false;
+							}}>×</button>
+						</div>
+						<p class="text-white font-['Orbitron'] text-sm leading-relaxed">No! Participation in MoraXtreme is completely <strong>FREE</strong>. We believe in making technology competitions accessible to all students. There are no hidden costs or registration fees - just bring your skills and passion for technology!</p>
+					</div>
 				</div>
 			</div>
 
-			<div class="collapse collapse-plus bg-base-100 shadow">
+			<div class="collapse">
 				<input type="radio" name="faq-accordion" />
-				<div class="collapse-title text-xl font-medium">
-					Do I need to bring my own equipment?
+				<div class="collapse-title bg-purple-900/10 hover:bg-purple-900/20 transition-colors duration-300 rounded-xl p-6 cursor-pointer shadow-[0px_4px_16px_rgba(15,15,35,0.4),0px_2px_8px_rgba(123,44,191,0.2),0px_1px_0px_rgba(255,255,255,0.1)]">
+					<div class="flex items-center justify-between">
+						<span class="font-['Orbitron'] font-bold text-lg text-white">Where is MoraXtreme happen?</span>
+						<span class="text-[#7B2CBF] text-2xl font-bold transition-transform duration-300">+</span>
+					</div>
 				</div>
-				<div class="collapse-content">
-					<p>For the preliminary rounds, you'll use your own device. For the finals, we'll provide workstations, but you're welcome to bring your own laptop if you prefer your setup.</p>
-				</div>
-			</div>
-
-			<div class="collapse collapse-plus bg-base-100 shadow">
-				<input type="radio" name="faq-accordion" />
-				<div class="collapse-title text-xl font-medium">
-					When and where is the final competition?
-				</div>
-				<div class="collapse-content">
-					<p>The final competition will be held on campus in Week 4. Specific venue details and time slots will be announced to qualified participants via email and on the competition details page.</p>
-				</div>
-			</div>
-
-			<div class="collapse collapse-plus bg-base-100 shadow">
-				<input type="radio" name="faq-accordion" />
-				<div class="collapse-title text-xl font-medium">
-					How do I prepare for the competition?
-				</div>
-				<div class="collapse-content">
-					<p>Preparation tips vary by category:</p>
-					<ul class="list-disc list-inside mt-2 space-y-1">
-						<li><strong>Programming:</strong> Practice algorithms, data structures, and competitive programming</li>
-						<li><strong>UI/UX:</strong> Study design principles, user research, and prototyping tools</li>
-						<li><strong>Cybersecurity:</strong> Learn about common vulnerabilities, penetration testing, and security tools</li>
-						<li><strong>Data Science:</strong> Brush up on statistics, machine learning, and data visualization</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="collapse collapse-plus bg-base-100 shadow">
-				<input type="radio" name="faq-accordion" />
-				<div class="collapse-title text-xl font-medium">
-					What if I have technical issues during the competition?
-				</div>
-				<div class="collapse-content">
-					<p>We'll have technical support staff available during all competition phases. For immediate assistance, you can contact our support team through the contact page or approach any staff member during the event.</p>
-				</div>
-			</div>
-
-			<div class="collapse collapse-plus bg-base-100 shadow">
-				<input type="radio" name="faq-accordion" />
-				<div class="collapse-title text-xl font-medium">
-					Can I change my registration details after submitting?
-				</div>
-				<div class="collapse-content">
-					<p>Minor changes can be made by contacting our team through the contact page. However, category changes may not be possible after the registration deadline.</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="text-center">
-			<div class="card bg-primary text-primary-content">
-				<div class="card-body">
-					<h3 class="card-title justify-center">Still have questions?</h3>
-					<p>Don't hesitate to reach out to our team</p>
-					<div class="card-actions justify-center">
-						<a href="/contact" class="btn btn-secondary">Contact Us</a>
-						<a href="/register" class="btn btn-accent">Register Now</a>
+				<div class="collapse-content p-0">
+					<div class="bg-purple-900/10 rounded-xl p-6 shadow-[0px_4px_16px_rgba(15,15,35,0.4),0px_2px_8px_rgba(123,44,191,0.2),0px_1px_0px_rgba(255,255,255,0.1)]">
+						<div class="flex items-start justify-between mb-4">
+							<h3 class="font-['Orbitron'] font-bold text-lg text-white">Where is MoraXtreme happen?</h3>
+							<button class="text-[#7B2CBF] text-xl font-bold hover:text-purple-300 transition-colors duration-300" on:click={() => {
+								const checkedInput = document.querySelector('input[name="faq-accordion"]:checked');
+								if (checkedInput) checkedInput.checked = false;
+							}}>×</button>
+						</div>
+						<p class="text-white font-['Orbitron'] text-sm leading-relaxed">MoraXtreme takes place at the University of Moratuwa campus. The preliminary rounds are conducted online, while the final competition will be held in our state-of-the-art computer labs and auditoriums. Specific venue details will be provided to qualified participants.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<style>
+	.collapse-title span:last-child {
+		transform: rotate(0deg);
+		transition: transform 0.3s ease;
+	}
+	
+	.collapse:has(input:checked) .collapse-title span:last-child {
+		transform: rotate(45deg);
+	}
+	
+	.collapse:has(input:checked) .collapse-title {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		display: none;
+	}
+</style>
