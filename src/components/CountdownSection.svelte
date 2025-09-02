@@ -58,78 +58,78 @@
         <div class="flex items-center justify-center gap-8 flex-wrap md:gap-6 xs:gap-4">
             <!-- Days -->
             <div
-                class="w-32 h-32 md:w-24 md:h-24 xs:w-20 xs:h-20 flex flex-col items-center justify-center rounded-xl 
+                class="w-40 h-40 md:w-36 md:h-36 sm:w-32 sm:h-32 xs:w-28 xs:h-28 flex flex-col items-center justify-center rounded-xl 
                     bg-gradient-to-b from-[#2B0057] to-black border border-purple-700/20 
                     shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)] 
                     hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] 
                     hover:-translate-y-0.5 transition-all duration-300 ease-in-out">
-                <div class="font-orbitron font-bold text-5xl md:text-3xl xs:text-2xl text-white 
+                <div class="font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl text-white 
                     drop-shadow-[0_0_20px_rgba(160,32,240,0.3)] 
                     [filter:drop-shadow(0_0_20px_rgba(160,32,240,0.3))]">
                     {formatTime(days)}
                 </div>
-                <div class="text-gray-400 text-xs md:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-medium">
+                <div class="text-gray-400 text-sm md:text-xs sm:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-medium">
                     Days
                 </div>
             </div>
 
             <!-- Colon -->
-            <div class="text-white font-orbitron font-bold text-5xl md:text-3xl xs:text-2xl 
+            <div class="text-white font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl 
                 animate-pulse-glow">
                 :
             </div>
 
             <!-- Hours -->
             <div
-                class="w-32 h-32 md:w-24 md:h-24 xs:w-20 xs:h-20 flex flex-col items-center justify-center rounded-xl 
+                class="w-40 h-40 md:w-36 md:h-36 sm:w-32 sm:h-32 xs:w-28 xs:h-28 flex flex-col items-center justify-center rounded-xl 
                     bg-gradient-to-b from-[#2B0057] to-black border border-purple-700/20 
                     shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)] 
                     hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] 
                     hover:-translate-y-0.5 transition-all duration-300 ease-in-out">
-                <div class="font-orbitron font-bold text-5xl md:text-3xl xs:text-2xl text-white 
+                <div class="font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl text-white 
                     drop-shadow-[0_0_20px_rgba(160,32,240,0.3)] 
                     [filter:drop-shadow(0_0_20px_rgba(160,32,240,0.3))]">
                     {formatTime(hours)}
                 </div>
-                <div class="text-gray-400 text-xs md:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-medium">
+                <div class="text-gray-400 text-sm md:text-xs sm:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-medium">
                     Hours
                 </div>
             </div>
 
-            <div class="text-white font-orbitron font-bold text-5xl md:text-3xl xs:text-2xl animate-pulse-glow">:</div>
+            <div class="text-white font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl animate-pulse-glow">:</div>
 
             <!-- Minutes -->
             <div
-                class="w-32 h-32 md:w-24 md:h-24 xs:w-20 xs:h-20 flex flex-col items-center justify-center rounded-xl 
+                class="w-40 h-40 md:w-36 md:h-36 sm:w-32 sm:h-32 xs:w-28 xs:h-28 flex flex-col items-center justify-center rounded-xl 
                     bg-gradient-to-b from-[#2B0057] to-black border border-purple-700/20 
                     shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)] 
                     hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] 
                     hover:-translate-y-0.5 transition-all duration-300 ease-in-out">
-                <div class="font-orbitron font-bold text-5xl md:text-3xl xs:text-2xl text-white 
+                <div class="font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl text-white 
                     drop-shadow-[0_0_20px_rgba(160,32,240,0.3)] 
                     [filter:drop-shadow(0_0_20px_rgba(160,32,240,0.3))]">
                     {formatTime(minutes)}
                 </div>
-                <div class="text-gray-400 text-xs md:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-medium">
+                <div class="text-gray-400 text-sm md:text-xs sm:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-medium">
                     Minutes
                 </div>
             </div>
 
-            <div class="text-white font-orbitron font-bold text-5xl md:text-3xl xs:text-2xl animate-pulse-glow">:</div>
+            <div class="text-white font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl animate-pulse-glow">:</div>
 
             <!-- Seconds -->
             <div
-                class="w-32 h-32 md:w-24 md:h-24 xs:w-20 xs:h-20 flex flex-col items-center justify-center rounded-xl 
+                class="w-40 h-40 md:w-36 md:h-36 sm:w-32 sm:h-32 xs:w-28 xs:h-28 flex flex-col items-center justify-center rounded-xl 
                     bg-gradient-to-b from-[#2B0057] to-black border border-purple-700/20 
                     shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)] 
                     hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] 
                     hover:-translate-y-0.5 transition-all duration-300 ease-in-out">
-                <div class="font-orbitron font-bold text-5xl md:text-3xl xs:text-2xl text-white 
+                <div class="font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl text-white 
                     drop-shadow-[0_0_20px_rgba(160,32,240,0.3)] 
                     [filter:drop-shadow(0_0_20px_rgba(160,32,240,0.3))]">
                     {formatTime(seconds)}
                 </div>
-                <div class="text-gray-400 text-xs md:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-medium">
+                <div class="text-gray-400 text-sm md:text-xs sm:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-medium">
                     Seconds
                 </div>
             </div>
