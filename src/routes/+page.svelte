@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from "$app/stores";
 	import { onMount } from "svelte";
+    import AboutSection from "../components/AboutSection.svelte";
 
 	let showError = false;
 	let mouseX = 0;
@@ -73,6 +74,7 @@
 </div>
 
 <div class="min-h-screen bg-[#0c0a15]">
+	<AboutSection />
 	<div class="py-16">
 		<div class="max-w-6xl mx-auto px-4">
 			<h2 class="text-3xl font-bold text-center mb-12">

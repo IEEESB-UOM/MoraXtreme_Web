@@ -1,8 +1,4 @@
-<svelte:head>
-	<title>About MoraXtreme - Competition Info</title>
-</svelte:head>
-
-<div class="min-h-screen text-base-content px-6 md:px-20 py-16 bg-[#0D1126] bg-[radial-gradient(circle_at_110%_0,_rgba(255,69,0,0.15)_0%,_rgba(255,69,0,0)_40%)]">
+<div id="about" class="min-h-screen text-base-content px-6 md:px-20 pt-16">
 	<div class="max-w-7xl mx-auto space-y-10">
 		<div class="text-center space-y-4">
 			<h1 class="text-3xl md:text-4xl tracking-wider font-display">
