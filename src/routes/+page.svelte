@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from "$app/stores";
 	import { onMount } from "svelte";
-	import Gallery from '$lib/Gallery.svelte';
+	import Gallery from '../components/Gallery.svelte';
 
 	let showError = false;
 	let mouseX = 0;
@@ -148,19 +148,5 @@
 			>
 		</div>
 	</div>
-<div class="flex flex-col items-center justify-center py-20">
-  <div class="container mx-auto px-4">
-    <div class="flex flex-col items-center justify-center">
-      <h2 class="text-4xl font-bold drop-shadow-lg font-display text-white bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text" style="text-shadow: 0 0 20px #8b5cf6, 0 0 40px #3b82f6, 0 0 60px #8b5cf6;">
-        GALLERY & PAST EVENTS
-      </h2>
-      <p class="text-gray-400 text-lg mt-4 text-center">
-        Explore how we've been doing
-      </p>
-    </div>
-  </div>
-</div>
-
-
 	<Gallery />
 </div>
