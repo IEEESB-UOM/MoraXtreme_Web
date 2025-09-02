@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from "$app/stores";
 	import { onMount } from "svelte";
+	import Gallery from '../components/Gallery.svelte';
 
 	let showError = false;
 	let mouseX = 0;
@@ -147,4 +148,5 @@
 			>
 		</div>
 	</div>
+	<Gallery />
 </div>
