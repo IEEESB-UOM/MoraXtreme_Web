@@ -148,7 +148,7 @@
 			>
 		</div>
 	</div>
-<div class="bg-[#0f111a] flex flex-col items-center justify-center py-20">
+<div class="flex flex-col items-center justify-center py-20">
   <div class="container mx-auto px-4">
     <div class="flex flex-col items-center justify-center">
       <h2 class="text-4xl font-bold drop-shadow-lg font-display text-white bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text" style="text-shadow: 0 0 20px #8b5cf6, 0 0 40px #3b82f6, 0 0 60px #8b5cf6;">
