@@ -36,14 +36,13 @@
 			<div class="navbar-center hidden lg:flex">
 				<ul class="menu menu-horizontal px-1">
 					<li><a href="/" class:active={$page.route.id === '/'}>Home</a></li>
-					<li><a href="/register" class:active={$page.route.id === '/register'}>Register</a></li>
 					<li><a href="/competition" class:active={$page.route.id === '/competition'}>Competition</a></li>
 					<li><a href="/faq" class:active={$page.route.id === '/faq'}>FAQ</a></li>
 					<li><a href="/contact" class:active={$page.route.id === '/contact'}>Contact</a></li>
 				</ul>
 			</div>
 			<div class="navbar-end">
-				<a href="/admin" class="btn btn-outline btn-sm">Admin</a>
+				<a href="/register" class="btn btn-primary">Register</a>
 			</div>
 		</div>
 
