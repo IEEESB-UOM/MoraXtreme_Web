@@ -5,10 +5,10 @@
 	import Gallery from "../components/Gallery.svelte";
 	import Timeline from "../components/Timeline.svelte";
 	import CountdownSection from "../components/CountdownSection.svelte";
+	import ParallaxBg from "../components/ParallaxBg.svelte";
+	import HeroSection from "../components/HeroSection.svelte";
 
 	let showError = false;
-	let mouseX = 0;
-	let mouseY = 0;
 
 	onMount(() => {
 		const error = $page.url.searchParams.get("error");
@@ -16,24 +16,7 @@
 			showError = true;
 			setTimeout(() => (showError = false), 5000);
 		}
-
-		const handleMouseMove = (e: MouseEvent) => {
-			const centerX = window.innerWidth / 2;
-			const centerY = window.innerHeight / 8;
-			mouseX = e.clientX - centerX;
-			mouseY = e.clientY - centerY;
-		};
-
-		window.addEventListener("mousemove", handleMouseMove);
-
-		return () => {
-			window.removeEventListener("mousemove", handleMouseMove);
-		};
 	});
-
-	$: bgTransform = `translate(${mouseX * -0.02}px, ${mouseY * -0.02}px)`;
-	$: mgTransform = `translate(${mouseX * -0.05}px, ${mouseY * -0.05}px)`;
-	$: fgTransform = `translate(${mouseX * -0.1}px, ${mouseY * -0.1}px)`;
 </script>
 
 {#if showError}
@@ -44,51 +27,53 @@
 	</div>
 {/if}
 
-<div class="hero min-h-screen relative overflow-hidden w-screen">
-	<div class="absolute inset-0 w-full h-full">
-		<div
-			class="absolute inset-0 w-full h-full bg-cover bg-center"
-			style="background-image: url('/parallax_bg.avif'); transform: {bgTransform}; width: 110%; height: 110%; top: -5%; left: -5%;"
-		></div>
-		<div
-			class="absolute inset-0 w-full h-full bg-cover bg-center"
-			style="background-image: url('/parallax_mg.avif'); transform: {mgTransform}; width: 110%; height: 110%; top: -5%; left: -5%;"
-		></div>
-		<div
-			class="absolute inset-0 w-full h-full bg-cover bg-center"
-			style="background-image: url('/parallax_fg.avif'); transform: {fgTransform}; width: 110%; height: 110%; top: -5%; left: -5%;"
-		></div>
-		<div
-			class="absolute inset-0 w-full h-full"
-			style="background: radial-gradient(circle, rgba(24, 0, 45, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%) 70%;"
-		></div>
-	</div>
-	<div
-		class="hero-content text-center text-white relative z-10 flex flex-col"
-	>
-		<h1
-			class="text-7xl font-bold mb-8 drop-shadow-lg font-display text-white bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text"
-			style="text-shadow: 0 0 20px #8b5cf6, 0 0 40px #3b82f6, 0 0 60px #8b5cf6;"
-		>
-			MoraXtreme 10.0
-		</h1>
-		<p class="text-3xl mb-8 drop-shadow-md">
-			Sri Lanka's Largest Technology Competition
-		</p>
-		<div class="flex flex-col sm:flex-row gap-4 justify-center">
-			<a
-				href="/register"
-				class="btn btn-primary btn-lg"
-				style="box-shadow: 0 0 20px #8b5cf6ab, 0 0 40px #3b82f670;"
-				>Register Now</a
-			>
-		</div>
-	</div>
+<ParallaxBg />
+
+<div class="snap-container">
+	<section class="snap-section">
+		<HeroSection />
+	</section>
+	<section class="snap-section">
+		<AboutSection />
+	</section>
+	<section class="snap-section">
+		<CountdownSection />
+	</section>
+	<section class="snap-section">
+		<Timeline />
+	</section>
+	<section class="snap-section">
+		<Gallery />
+	</section>
+	<footer class="footer footer-center p-10 bg-base text-base-content">
+		<aside>
+			<img src="/logo.avif" alt="MoraXtreme Logo" class="w-auto h-24" />
+			<p class="font-bold">
+				MoraXtreme 2025<br />The Ultimate Tech Competition
+			</p>
+			<p>Copyright © 2025 - All rights reserved</p>
+		</aside>
+		<nav>
+			<div class="grid grid-flow-col gap-4">
+				<a href="/faq" class="link link-hover">FAQ</a>
+				<a href="/contact" class="link link-hover">Contact</a>
+			</div>
+		</nav>
+	</footer>
 </div>
 
-<div class="min-h-screen bg-[#0c0a15]">
-	<AboutSection />
-	<CountdownSection />
-	<Timeline />
-	<Gallery />
-</div>
+<style>
+	.snap-container {
+		height: 100vh;
+		overflow-y: scroll;
+		scroll-snap-type: y mandatory;
+		scroll-behavior: smooth;
+	}
+
+	.snap-section {
+		height: 100vh;
+		scroll-snap-align: start;
+		scroll-snap-stop: always;
+		position: relative;
+	}
+</style>
