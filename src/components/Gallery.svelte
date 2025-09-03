@@ -20,7 +20,7 @@
       >
         GALLERY & PAST EVENTS
       </h2>
-      <p class="text-gray-400 text-lg mt-4 text-center">
+      <p class="text-base-content text-lg mt-4 text-center">
         Explore how we've been doing
       </p>
     </div>
