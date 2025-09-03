@@ -21,7 +21,7 @@
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
 						</svg>
 					</div>
-					<ul class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base-100">
+					<ul class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base-content">
 						<li><a href="/" class:active={$page.route.id === '/'}>Home</a></li>
 						<li><a href="/register" class:active={$page.route.id === '/register'}>Register</a></li>
 						<li><a href="/competition" class:active={$page.route.id === '/competition'}>Competition</a></li>
@@ -42,7 +42,7 @@
 				</ul>
 			</div>
 			<div class="navbar-end">
-				<a href="/register" class="btn btn-primary">Register</a>
+				<a href="/register" class="btn btn-primary hidden lg:block">Register</a>
 			</div>
 		</div>
 

@@ -13,13 +13,13 @@
 
 <section
   id="gallery"
-  class="text-base-content flex-col px-6 md:px-20 min-h-screen flex items-center justify-center relative"
+  class="text-base-content flex-col px-6 md:px-20 min-h-screen flex items-center justify-center relative py-20"
 >
-  <div class="flex flex-col items-center justify-center py-20">
+  <div class="flex flex-col items-center justify-center">
     <div class="container mx-auto px-4">
       <div class="flex flex-col items-center justify-center">
         <h2
-          class="text-4xl font-bold drop-shadow-lg font-display text-white bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text"
+          class="text-center text-4xl font-bold drop-shadow-lg font-display text-white bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text"
           style="text-shadow: 0 0 20px #8b5cf6, 0 0 40px #3b82f6, 0 0 60px #8b5cf6;"
         >
           GALLERY & PAST EVENTS

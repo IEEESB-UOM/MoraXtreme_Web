@@ -57,12 +57,12 @@
             <div class="container mx-auto px-4">
                 <div class="flex flex-col items-center justify-center">
                     <h2
-                        class="text-4xl font-bold drop-shadow-lg font-display text-white bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text"
+                        class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold drop-shadow-lg font-display text-white bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text"
                         style="text-shadow: 0 0 20px #8b5cf6, 0 0 40px #3b82f6, 0 0 60px #8b5cf6;"
                     >
                         THE COUNTDOWN BEGINS
                     </h2>
-                    <p class="text-base-content text-lg mt-4 text-center">
+                    <p class="text-base-content text-sm sm:text-base md:text-lg mt-4 text-center">
                         Mark your calendars! MoraXtreme 10.0 is approaching
                         fast. Get ready for Sri Lanka's most challenging coding
                         competition.
@@ -72,23 +72,23 @@
         </div>
 
         <div
-            class="flex items-center justify-center gap-8 flex-wrap md:gap-6 xs:gap-4"
+            class="flex items-center justify-center gap-4 flex-wrap md:gap-6 sm:gap-3 xs:gap-2"
         >
             <!-- Days -->
             <div
-                class="w-40 h-40 md:w-36 md:h-36 sm:w-32 sm:h-32 xs:w-28 xs:h-28 flex flex-col items-center justify-center rounded-xl
+                class="w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 flex flex-col items-center justify-center rounded-xl
                     bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20
                     shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)]
                     hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)]
                     hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
             >
                 <div
-                    class="font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl text-white"
+                    class="font-orbitron font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white"
                 >
                     {formatTime(days)}
                 </div>
                 <div
-                    class="text-base-content text-sm md:text-xs sm:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-bold"
+                    class="text-base-content text-xs sm:text-sm md:text-sm uppercase tracking-wider mt-1 font-rajdhani font-bold"
                 >
                     Days
                 </div>
@@ -96,79 +96,78 @@
 
             <!-- Colon -->
             <div
-                class="text-white font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl
-                animate-pulse-glow"
+                class="text-white font-orbitron font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl animate-pulse-glow"
             >
                 :
             </div>
 
             <!-- Hours -->
             <div
-                class="w-40 h-40 md:w-36 md:h-36 sm:w-32 sm:h-32 xs:w-28 xs:h-28 flex flex-col items-center justify-center rounded-xl
+                class="w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 flex flex-col items-center justify-center rounded-xl
                     bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20
                     shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)]
                     hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)]
                     hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
             >
                 <div
-                    class="font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl text-white"
+                    class="font-orbitron font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white"
                 >
                     {formatTime(hours)}
                 </div>
                 <div
-                    class="text-base-content text-sm md:text-xs sm:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-bold"
+                    class="text-base-content text-xs sm:text-sm md:text-sm uppercase tracking-wider mt-1 font-rajdhani font-bold"
                 >
                     Hours
                 </div>
             </div>
 
             <div
-                class="text-white font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl animate-pulse-glow"
+                class="text-white font-orbitron font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl animate-pulse-glow"
             >
                 :
             </div>
 
             <!-- Minutes -->
             <div
-                class="w-40 h-40 md:w-36 md:h-36 sm:w-32 sm:h-32 xs:w-28 xs:h-28 flex flex-col items-center justify-center rounded-xl
+                class="w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 flex flex-col items-center justify-center rounded-xl
                     bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20
                     shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)]
                     hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)]
                     hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
             >
                 <div
-                    class="font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl text-white"
+                    class="font-orbitron font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white"
                 >
                     {formatTime(minutes)}
                 </div>
                 <div
-                    class="text-base-content text-sm md:text-xs sm:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-bold"
+                    class="text-base-content text-xs sm:text-sm md:text-sm uppercase tracking-wider mt-1 font-rajdhani font-bold"
                 >
                     Minutes
                 </div>
             </div>
 
             <div
-                class="text-white font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl animate-pulse-glow"
+                class="text-white font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl animate-pulse-glow hidden lg:block"
             >
                 :
             </div>
 
             <!-- Seconds -->
             <div
-                class="w-40 h-40 md:w-36 md:h-36 sm:w-32 sm:h-32 xs:w-28 xs:h-28 flex flex-col items-center justify-center rounded-xl
+                class="w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 hidden lg:flex flex-col items-center justify-center rounded-xl
                     bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20
                     shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)]
                     hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)]
                     hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
             >
                 <div
-                    class="font-orbitron font-bold text-6xl md:text-5xl sm:text-4xl xs:text-3xl text-white"
+                    class="font-orbitron font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white"
                 >
                     {formatTime(seconds)}
                 </div>
                 <div
-                    class="text-base-content text-sm md:text-xs sm:text-[0.75rem] xs:text-[0.625rem] uppercase tracking-wider mt-2 font-rajdhani font-bold"
+                    class="text-base-content text-xs sm:text-sm md:text-sm uppercase tracking-wider mt-1 font-rajdhani font-bold"
                 >
                     Seconds
                 </div>
@@ -177,7 +176,7 @@
 
         <div class="space-y-6">
             <p
-                class="text-base-content text-lg font-bold uppercase tracking-widest font-rajdhani"
+                class="text-base-content text-sm sm:text-base md:text-lg font-bold uppercase tracking-widest font-rajdhani"
             >
                 Registration Opens Soon
             </p>
