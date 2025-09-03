@@ -42,7 +42,7 @@
 				</ul>
 			</div>
 			<div class="navbar-end">
-				<a href="/register" class="btn btn-primary hidden lg:block">Register</a>
+				<a href="/register" class="btn btn-primary hidden lg:flex">Register</a>
 			</div>
 		</div>
 
