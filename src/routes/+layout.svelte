@@ -50,21 +50,5 @@
 		<main class="flex-1">
 			{@render children?.()}
 		</main>
-
-		<footer class="footer footer-center p-10 bg-base text-base-content">
-			<aside>
-				<img src="/logo.avif" alt="MoraXtreme Logo" class="w-auto h-24" />
-				<p class="font-bold">
-					MoraXtreme 2025<br/>The Ultimate Tech Competition
-				</p>
-				<p>Copyright © 2025 - All rights reserved</p>
-			</aside>
-			<nav>
-				<div class="grid grid-flow-col gap-4">
-					<a href="/faq" class="link link-hover">FAQ</a>
-					<a href="/contact" class="link link-hover">Contact</a>
-				</div>
-			</nav>
-		</footer>
 	</div>
 </div>
