@@ -5,10 +5,9 @@
 	import Gallery from "../components/Gallery.svelte";
 	import Timeline from "../components/Timeline.svelte";
 	import CountdownSection from "../components/CountdownSection.svelte";
+    import ParallaxBg from "../components/ParallaxBg.svelte";
 
 	let showError = false;
-	let mouseX = 0;
-	let mouseY = 0;
 
 	onMount(() => {
 		const error = $page.url.searchParams.get("error");
@@ -16,24 +15,7 @@
 			showError = true;
 			setTimeout(() => (showError = false), 5000);
 		}
-
-		const handleMouseMove = (e: MouseEvent) => {
-			const centerX = window.innerWidth / 2;
-			const centerY = window.innerHeight / 8;
-			mouseX = e.clientX - centerX;
-			mouseY = e.clientY - centerY;
-		};
-
-		window.addEventListener("mousemove", handleMouseMove);
-
-		return () => {
-			window.removeEventListener("mousemove", handleMouseMove);
-		};
 	});
-
-	$: bgTransform = `translate(${mouseX * -0.02}px, ${mouseY * -0.02}px)`;
-	$: mgTransform = `translate(${mouseX * -0.05}px, ${mouseY * -0.05}px)`;
-	$: fgTransform = `translate(${mouseX * -0.1}px, ${mouseY * -0.1}px)`;
 </script>
 
 {#if showError}
@@ -44,25 +26,8 @@
 	</div>
 {/if}
 
+<ParallaxBg />
 <div class="hero min-h-screen relative overflow-hidden w-screen">
-	<div class="absolute inset-0 w-full h-full">
-		<div
-			class="absolute inset-0 w-full h-full bg-cover bg-center"
-			style="background-image: url('/parallax_bg.avif'); transform: {bgTransform}; width: 110%; height: 110%; top: -5%; left: -5%;"
-		></div>
-		<div
-			class="absolute inset-0 w-full h-full bg-cover bg-center"
-			style="background-image: url('/parallax_mg.avif'); transform: {mgTransform}; width: 110%; height: 110%; top: -5%; left: -5%;"
-		></div>
-		<div
-			class="absolute inset-0 w-full h-full bg-cover bg-center"
-			style="background-image: url('/parallax_fg.avif'); transform: {fgTransform}; width: 110%; height: 110%; top: -5%; left: -5%;"
-		></div>
-		<div
-			class="absolute inset-0 w-full h-full"
-			style="background: radial-gradient(circle, rgba(24, 0, 45, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%) 70%;"
-		></div>
-	</div>
 	<div
 		class="hero-content text-center text-white relative z-10 flex flex-col"
 	>
@@ -86,7 +51,7 @@
 	</div>
 </div>
 
-<div class="min-h-screen bg-[#0c0a15]">
+<div class="min-h-screen">
 	<AboutSection />
 	<CountdownSection />
 	<Timeline />
