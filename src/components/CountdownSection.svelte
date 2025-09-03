@@ -48,7 +48,10 @@
     />
 </svelte:head>
 
-<div class="text-base-content py-24 px-6 md:px-20">
+<section
+    id="countdown"
+    class="text-base-content px-6 md:px-20 min-h-screen flex flex-col items-center justify-center relative"
+>
     <div class="max-w-7xl mx-auto text-center space-y-12">
         <div class="flex flex-col items-center justify-center py-20">
             <div class="container mx-auto px-4">
@@ -186,7 +189,7 @@
             </a>
         </div>
     </div>
-</div>
+</section>
 
 <style>
     @keyframes pulse-glow {
