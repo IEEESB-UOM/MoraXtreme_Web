@@ -53,12 +53,6 @@
 			</p>
 			<p>Copyright © 2025 - All rights reserved</p>
 		</aside>
-		<nav>
-			<div class="grid grid-flow-col gap-4">
-				<a href="/faq" class="link link-hover">FAQ</a>
-				<a href="/contact" class="link link-hover">Contact</a>
-			</div>
-		</nav>
 	</footer>
 </div>
 
@@ -71,7 +65,7 @@
 	}
 
 	.snap-section {
-		height: 100vh;
+		min-height: 100vh;
 		scroll-snap-align: start;
 		scroll-snap-stop: always;
 		position: relative;
