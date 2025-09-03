@@ -2,16 +2,12 @@
 	import { page } from "$app/stores";
 	import { onMount } from "svelte";
 
-	let showError = false;
 	let mouseX = 0;
 	let mouseY = 0;
 
 	onMount(() => {
 		const error = $page.url.searchParams.get("error");
-		if (error === "unauthorized") {
-			showError = true;
-			setTimeout(() => (showError = false), 5000);
-		}
+	
 
 		const handleMouseMove = (e: MouseEvent) => {
 			const centerX = window.innerWidth / 2;
