@@ -9,7 +9,7 @@
 @plugin "daisyui/theme" {
   name: "xtreme";
   default: true;
-  prefersdark: false;
+  prefersdark: true;
   color-scheme: "dark";
   --color-base-100: oklch(0.2 0.0296 248.81);
   --color-base-200: oklch(0.2882 0.0567 248.81);
