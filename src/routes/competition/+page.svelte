@@ -11,15 +11,14 @@
 <div class="min-h-screen py-24">
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="text-center mb-16">
-			<h1 class="font-['Orbitron'] font-bold text-5xl text-white mb-8 bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text"
-				style="text-shadow: 0 0 20px #8b5cf6, 0 0 40px #3b82f6, 0 0 60px #8b5cf6;">
+			<h1 class="font-['Orbitron'] font-bold text-5xl text-gradient text-shadow-glow mb-8">
 				MoraXtreme 10.0 Competition Details
 			</h1>
 		</div>
 
 		<div class="space-y-12">
 			<!-- About MoraXtreme -->
-			<div class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:border-white/30 rounded-xl shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] transition-all duration-300 p-8">
+			<div class="glass-card glass-shadow glass-shadow-hover p-8">
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">About MoraXtreme</h2>
 				<div class="space-y-4 text-white text-base leading-relaxed">
 					<p>
@@ -32,7 +31,7 @@
 			</div>
 
 			<!-- Competition Format -->
-			<div class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:border-white/30 rounded-xl shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] transition-all duration-300 p-8">
+			<div class="glass-card glass-shadow glass-shadow-hover p-8">
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">Competition Format</h2>
 				<div class="text-white text-base leading-relaxed">
 					<p class="mb-4">MoraXtreme consists of two rounds:</p>
@@ -44,7 +43,7 @@
 			</div>
 
 			<!-- Eligibility -->
-			<div class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:border-white/30 rounded-xl shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] transition-all duration-300 p-8">
+			<div class="glass-card glass-shadow glass-shadow-hover p-8">
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">Eligibility</h2>
 				<div class="text-white text-base leading-relaxed">
 					<ul class="list-disc list-inside space-y-2">
@@ -56,7 +55,7 @@
 			</div>
 
 			<!-- Skills Tested -->
-			<div class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:border-white/30 rounded-xl shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] transition-all duration-300 p-8">
+			<div class="glass-card glass-shadow glass-shadow-hover p-8">
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">Skills Tested</h2>
 				<div class="text-white text-base leading-relaxed">
 					<p>Participants are challenged on a range of algorithmic, mathematical, and programming problems designed to test logic, problem-solving speed, and coding proficiency.</p>
@@ -64,35 +63,35 @@
 			</div>
 
 			<!-- Timeline -->
-			<div class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:border-white/30 rounded-xl shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] transition-all duration-300 p-8">
+			<div class="glass-card glass-shadow glass-shadow-hover p-8">
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">Timeline</h2>
 				<div class="text-white text-base leading-relaxed">
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 						<div class="space-y-3">
 							<div class="flex flex-col">
-								<span class="font-bold text-purple-300">Registration Period:</span>
+								<span class="font-bold text-primary">Registration Period:</span>
 								<span>Sep 7th - Sep 19th, 2025</span>
 							</div>
 							<div class="flex flex-col">
-								<span class="font-bold text-purple-300">Awareness Session:</span>
+								<span class="font-bold text-primary">Awareness Session:</span>
 								<span>September 15th, 2025</span>
 							</div>
 							<div class="flex flex-col">
-								<span class="font-bold text-purple-300">Workshops:</span>
+								<span class="font-bold text-primary">Workshops:</span>
 								<span>Sep 7th - Oct 5th, 2025</span>
 							</div>
 						</div>
 						<div class="space-y-3">
 							<div class="flex flex-col">
-								<span class="font-bold text-purple-300">Elimination Round:</span>
+								<span class="font-bold text-primary">Elimination Round:</span>
 								<span>September 20th, 2025</span>
 							</div>
 							<div class="flex flex-col">
-								<span class="font-bold text-purple-300">Final Round:</span>
+								<span class="font-bold text-primary">Final Round:</span>
 								<span>October 12th, 2025</span>
 							</div>
 							<div class="flex flex-col">
-								<span class="font-bold text-purple-300">IEEEXtreme 19.0:</span>
+								<span class="font-bold text-primary">IEEEXtreme 19.0:</span>
 								<span>October 25th, 2025</span>
 							</div>
 						</div>
@@ -104,7 +103,7 @@
 			</div>
 
 			<!-- Awards -->
-			<div class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:border-white/30 rounded-xl shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] transition-all duration-300 p-8">
+			<div class="glass-card glass-shadow glass-shadow-hover p-8">
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">MoraXtreme Awards</h2>
 				<div class="text-white text-base leading-relaxed">
 					<p class="mb-4">All finalists receive certificates of achievement recognizing their performance in MoraXtreme 10.0.</p>

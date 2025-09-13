@@ -4,10 +4,9 @@
 			<div class="container mx-auto px-4">
 				<div class="flex flex-col items-center justify-center">
 					<h2
-						class="text-center text-4xl font-bold drop-shadow-lg font-display text-white bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text"
-						style="text-shadow: 0 0 20px #8b5cf6, 0 0 40px #3b82f6, 0 0 60px #8b5cf6;"
+						class="text-center text-4xl font-bold drop-shadow-lg font-display text-gradient text-shadow-glow"
 					>
-						WHAT IS <span class="text-indigo-400">MoraXtreme?</span>
+						WHAT IS <span class="text-accent">MoraXtreme?</span>
 					</h2>
 				</div>
 			</div>
@@ -16,28 +15,28 @@
 			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center text-lg mt-12"
 		>
 			<div
-				class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:border-white/30 p-6 rounded-xl flex items-center justify-center h-full min-h-[150px] shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] hover:bg-white/10 transition-all duration-300"
+				class="glass-card glass-shadow glass-shadow-hover p-6 flex items-center justify-center h-full min-h-[150px]"
 			>
 				<p class="font-bold">
 					Annual 20-hour<br />coding competition
 				</p>
 			</div>
 			<div
-				class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:border-white/30 p-6 rounded-xl flex items-center justify-center h-full min-h-[150px] shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] hover:bg-white/10 transition-all duration-300"
+				class="glass-card glass-shadow glass-shadow-hover p-6 flex items-center justify-center h-full min-h-[150px]"
 			>
 				<p class="font-bold">
 					For university<br />coders nationwide
 				</p>
 			</div>
 			<div
-				class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:border-white/30 p-6 rounded-xl flex items-center justify-center h-full min-h-[150px] shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] hover:bg-white/10 transition-all duration-300"
+				class="glass-card glass-shadow glass-shadow-hover p-6 flex items-center justify-center h-full min-h-[150px]"
 			>
 				<p class="font-bold">
 					Challenges crafted by top<br />algorithmic minds
 				</p>
 			</div>
 			<div
-				class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:border-white/30 p-6 rounded-xl flex items-center justify-center h-full min-h-[150px] shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] hover:bg-white/10 transition-all duration-300"
+				class="glass-card glass-shadow glass-shadow-hover p-6 flex items-center justify-center h-full min-h-[150px]"
 			>
 				<p class="font-bold">
 					Practice ground<br />for global contests like<br
@@ -66,7 +65,7 @@
 
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 			<div
-				class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:border-white/30 p-8 rounded-xl space-y-4 shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] hover:bg-white/10 transition-all duration-300"
+				class="glass-card glass-shadow glass-shadow-hover p-8 space-y-4"
 			>
 				<h3 class="text-xl font-bold font-display">Core Values</h3>
 				<ul
@@ -79,7 +78,7 @@
 			</div>
 
 			<div
-				class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:border-white/30 p-8 rounded-xl space-y-4 shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] hover:bg-white/10 transition-all duration-300"
+				class="glass-card glass-shadow glass-shadow-hover p-8 space-y-4"
 			>
 				<h3 class="text-xl font-bold font-display">Why Participate?</h3>
 				<ul
@@ -92,7 +91,7 @@
 			</div>
 
 			<div
-				class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:border-white/30 p-8 rounded-xl space-y-4 shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] hover:bg-white/10 transition-all duration-300"
+				class="glass-card glass-shadow glass-shadow-hover p-8 space-y-4"
 			>
 				<h3 class="text-xl font-bold font-display">
 					MoraXtreme Impact
