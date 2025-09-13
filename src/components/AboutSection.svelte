@@ -19,7 +19,7 @@
 				class="bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:border-white/30 p-6 rounded-xl flex items-center justify-center h-full min-h-[150px] shadow-[0_0_32px_rgba(147,51,234,0.3),inset_0_1px_0_rgba(255,255,255,0.1)] hover:shadow-[0_0_48px_rgba(147,51,234,0.5),inset_0_1px_0_rgba(255,255,255,0.15)] hover:bg-white/10 transition-all duration-300"
 			>
 				<p class="font-bold">
-					Annual 12-hour<br />online coding competition
+					Annual 20-hour<br />coding competition
 				</p>
 			</div>
 			<div
@@ -59,12 +59,7 @@
 				<p
 					class="text-base md:text-lg leading-relaxed text-base-content/80 mt-10"
 				>
-					MoraXtreme is Sri Lanka’s premier annual algorithmic coding
-					hackathon, proudly organized by the IEEE Computer Society of
-					the University of Moratuwa. Designed as a 12-hour online
-					coding battle, MoraXtreme brings together the brightest
-					minds from universities across the country to showcase their
-					expertise in algorithmic and mathematical problem-solving.
+					MoraXtreme is Sri Lanka’s premier annual algorithmic coding hackathon, proudly organized by the IEEE Student Branch in collaboration with the Computer Society chapter of the University of Moratuwa. Designed as a 12-hour online coding challenge followed by an intense 8-hour physical round, MoraXtreme brings together the brightest minds from universities across the country to showcase their expertise in algorithmic and mathematical problem-solving.
 				</p>
 			</div>
 		</div>

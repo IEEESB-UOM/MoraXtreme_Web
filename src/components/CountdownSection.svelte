@@ -175,13 +175,8 @@
         </div>
 
         <div class="space-y-4 sm:space-y-6">
-            <p
-                class="text-base-content text-xs sm:text-sm md:text-lg font-bold uppercase tracking-widest font-rajdhani px-2 sm:px-0"
-            >
-                Registration Opens Soon
-            </p>
             <a
-                href="/register"
+                href="https://forms.gle/jiF6QXNBAh4wedrE8"
                 class="btn btn-primary btn-sm sm:btn-md md:btn-lg hover:shadow-[0_0_40px_rgba(160,32,240,0.5)] transition-all duration-300 text-sm sm:text-base"
             >
                 Register Now
