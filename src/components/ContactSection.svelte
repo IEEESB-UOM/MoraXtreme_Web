@@ -12,7 +12,7 @@
     },
     {
       name: "Mindiya Karunasinghe",
-      role: "Event Vice Chairs",
+      role: "Event Vice Chair",
       organization: "",
       email: "",
       phone: "+94 71 232 8775",
@@ -20,7 +20,7 @@
     },
     {
       name: "Thamalu Bambaravanage",
-      role: "-",
+      role: "Event Vice Chair",
       organization: [""],
       email: "",
       phone: " +94 707 806 767",
