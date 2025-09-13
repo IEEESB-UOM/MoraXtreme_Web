@@ -23,7 +23,7 @@
 					</div>
 					<ul class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base-content">
 						<li><a href="/" class:active={$page.route.id === '/'}>Home</a></li>
-						<li><a href="/register" class:active={$page.route.id === '/register'}>Register</a></li>
+						<li><a href="https://forms.gle/jiF6QXNBAh4wedrE8">Register</a></li>
 						<li><a href="/competition" class:active={$page.route.id === '/competition'}>Competition</a></li>
 						<li><a href="/faq" class:active={$page.route.id === '/faq'}>FAQ</a></li>
 						<li><a href="/contact" class:active={$page.route.id === '/contact'}>Contact</a></li>
@@ -42,7 +42,7 @@
 				</ul>
 			</div>
 			<div class="navbar-end">
-				<a href="/register" class="btn btn-primary hidden lg:flex">Register</a>
+				<a href="https://forms.gle/jiF6QXNBAh4wedrE8" class="btn btn-primary hidden lg:flex">Register</a>
 			</div>
 		</div>
 

@@ -13,11 +13,11 @@
                 MoraXtreme 10.0
             </h1>
             <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-8 drop-shadow-md">
-                Sri Lanka's Largest Technology Competition
+                Sri Lanka's Largest Algorithmic Coding Competition
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                    href="/register"
+                    href="https://forms.gle/jiF6QXNBAh4wedrE8"
                     class="btn btn-primary btn-lg"
                     style="box-shadow: 0 0 20px #8b5cf6ab, 0 0 40px #3b82f670;"
                     >Register Now</a

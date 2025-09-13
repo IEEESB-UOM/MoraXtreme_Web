@@ -29,45 +29,17 @@
 
 <ParallaxBg />
 
-<div class="snap-container">
-	<section class="snap-section">
-		<HeroSection />
-	</section>
-	<section class="snap-section">
-		<AboutSection />
-	</section>
-	<section class="snap-section">
-		<CountdownSection />
-	</section>
-	<section class="snap-section">
-		<Timeline />
-	</section>
-	<section class="snap-section">
-		<Gallery />
-	</section>
-	<footer class="footer footer-center p-10 bg-base text-base-content">
-		<aside>
-			<img src="/logo.avif" alt="MoraXtreme Logo" class="w-auto h-24" />
-			<p class="font-bold">
-				MoraXtreme 2025<br />The Ultimate Tech Competition
-			</p>
-			<p>Copyright © 2025 - All rights reserved</p>
-		</aside>
-	</footer>
-</div>
-
-<style>
-	.snap-container {
-		height: 100vh;
-		overflow-y: scroll;
-		scroll-snap-type: y mandatory;
-		scroll-behavior: smooth;
-	}
-
-	.snap-section {
-		min-height: 100vh;
-		scroll-snap-align: start;
-		scroll-snap-stop: always;
-		position: relative;
-	}
-</style>
+<HeroSection />
+<AboutSection />
+<CountdownSection />
+<Timeline />
+<Gallery />
+<footer class="footer footer-center p-10 bg-base text-base-content">
+	<aside>
+		<img src="/logo.avif" alt="MoraXtreme Logo" class="w-auto h-24" />
+		<p class="font-bold">
+			MoraXtreme 2025<br />Sri Lanka's Largest Algorithmic Coding Competition
+		</p>
+		<p>Copyright © 2025 - All rights reserved</p>
+	</aside>
+</footer>
