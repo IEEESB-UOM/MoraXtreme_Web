@@ -8,7 +8,7 @@
       organization: "",
       email: "",
       phone: "+94 710 338 048",
-      imageUrl: "/Contact/contact.png",
+      imageUrl: "/Contact/sonath.png",
     },
     {
       name: "Mindiya Karunasinghe",
@@ -16,7 +16,7 @@
       organization: "",
       email: "",
       phone: "+94 71 232 8775",
-      imageUrl: "/Contact/contact.png",
+      imageUrl: "/Contact/mindiya.png",
     },
     {
       name: "Thamalu Bambaravanage",
@@ -24,7 +24,7 @@
       organization: [""],
       email: "",
       phone: " +94 707 806 767",
-      imageUrl: "/Contact/contact.png",
+      imageUrl: "/Contact/thamalu.png",
     },
     {
       name: "Hasaruvi Kodithuwakku",
@@ -32,7 +32,7 @@
       organization: [""],
       email: "",
       phone: " +94 70 776 4126",
-      imageUrl: "/Contact/contact.png",
+      imageUrl: "/Contact/hasaruvi.png",
     }
   ];
 </script>

@@ -12,7 +12,7 @@
 </style>
 
 <div
-  class="flex flex-col sm:flex-row items-center w-full max-w-xs sm:max-w-md mx-auto hover-scale"
+  class="flex flex-col sm:flex-row items-center w-full max-w-xs sm:max-w-md mx-auto hover-scale p-4 glass-card glass-shadow glass-shadow-hover"
   in:fly={{ y: 20, duration: 400 }}
   out:fade
 >
@@ -23,7 +23,7 @@
   />
 
   <div
-    class="bg-transparent rounded-lg shadow-xl text-center sm:text-left
+    class="timeline-end  max-w-xs lg:max-w-[18rem] p-4 glass-shadow glass-shadow-hover
            w-full p-4 pt-10 sm:pt-4 sm:pl-10 -mt-8 sm:mt-0 sm:-ml-6"
   >
     <h3 class="text-lg font-bold text-white-900">{contact.name}</h3>
