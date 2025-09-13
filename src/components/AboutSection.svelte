@@ -6,7 +6,7 @@
 					<h2
 						class="text-center text-4xl font-bold drop-shadow-lg font-display text-gradient text-shadow-glow"
 					>
-						WHAT IS <span class="text-accent">MoraXtreme?</span>
+						WHAT IS <span class="text-secondary">MoraXtreme?</span>
 					</h2>
 				</div>
 			</div>
