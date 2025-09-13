@@ -7,7 +7,7 @@
 	import CountdownSection from "../components/CountdownSection.svelte";
 	import ParallaxBg from "../components/ParallaxBg.svelte";
 	import HeroSection from "../components/HeroSection.svelte";
-
+	import ContactSection from "../components/ContactSection.svelte";
 	let showError = false;
 
 	onMount(() => {
@@ -34,6 +34,7 @@
 <CountdownSection />
 <Timeline />
 <Gallery />
+<ContactSection />
 <footer class="footer footer-center p-10 bg-base text-base-content">
 	<aside>
 		<img src="/logo.avif" alt="MoraXtreme Logo" class="w-auto h-24" />
