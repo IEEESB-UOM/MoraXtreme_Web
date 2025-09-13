@@ -57,8 +57,7 @@
             <div class="container mx-auto px-2 sm:px-4">
                 <div class="flex flex-col items-center justify-center">
                     <h2
-                        class="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold drop-shadow-lg font-display text-white bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text px-2"
-                        style="text-shadow: 0 0 20px #8b5cf6, 0 0 40px #3b82f6, 0 0 60px #8b5cf6;"
+                        class="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold drop-shadow-lg font-display text-gradient text-shadow-glow px-2"
                     >
                         THE COUNTDOWN BEGINS
                     </h2>
@@ -76,11 +75,7 @@
         >
             <!-- Days -->
             <div
-                class="w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 flex flex-col items-center justify-center rounded-lg sm:rounded-xl
-                    bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20
-                    shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)]
-                    hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)]
-                    hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
+                class="w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 flex flex-col items-center justify-center glass-card glass-shadow glass-shadow-hover hover:-translate-y-0.5 ease-in-out"
             >
                 <div
                     class="font-orbitron font-bold text-xl xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-white"
@@ -103,11 +98,7 @@
 
             <!-- Hours -->
             <div
-                class="w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 flex flex-col items-center justify-center rounded-lg sm:rounded-xl
-                    bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20
-                    shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)]
-                    hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)]
-                    hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
+                class="w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 flex flex-col items-center justify-center glass-card glass-shadow glass-shadow-hover hover:-translate-y-0.5 ease-in-out"
             >
                 <div
                     class="font-orbitron font-bold text-xl xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-white"
@@ -129,11 +120,7 @@
 
             <!-- Minutes -->
             <div
-                class="w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 flex flex-col items-center justify-center rounded-lg sm:rounded-xl
-                    bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20
-                    shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)]
-                    hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)]
-                    hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
+                class="w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 flex flex-col items-center justify-center glass-card glass-shadow glass-shadow-hover hover:-translate-y-0.5 ease-in-out"
             >
                 <div
                     class="font-orbitron font-bold text-xl xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-white"
@@ -155,11 +142,7 @@
 
             <!-- Seconds -->
             <div
-                class="w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 hidden sm:flex flex-col items-center justify-center rounded-lg sm:rounded-xl
-                    bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20
-                    shadow-[0_8px_32px_rgba(160,32,240,0.3),0_4px_16px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)]
-                    hover:shadow-[0_12px_48px_rgba(160,32,240,0.4),0_6px_24px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.15)]
-                    hover:bg-white/10 hover:backdrop-saturate-[2.5] hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
+                class="w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 flex flex-col items-center justify-center glass-card glass-shadow glass-shadow-hover hover:-translate-y-0.5 ease-in-out"
             >
                 <div
                     class="font-orbitron font-bold text-xl xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-white"
@@ -177,7 +160,7 @@
         <div class="space-y-4 sm:space-y-6">
             <a
                 href="https://forms.gle/jiF6QXNBAh4wedrE8"
-                class="btn btn-primary btn-sm sm:btn-md md:btn-lg hover:shadow-[0_0_40px_rgba(160,32,240,0.5)] transition-all duration-300 text-sm sm:text-base"
+                class="btn btn-primary btn-sm sm:btn-md md:btn-lg btn-glow-hover transition-all duration-300 text-sm sm:text-base"
             >
                 Register Now
             </a>
@@ -189,14 +172,14 @@
     @keyframes pulse-glow {
         from {
             text-shadow:
-                0 0 30px rgba(160, 32, 240, 0.6),
-                0 0 60px rgba(160, 32, 240, 0.3),
+                0 0 30px oklch(var(--color-glow-primary) / 0.6),
+                0 0 60px oklch(var(--color-glow-primary) / 0.3),
                 0 2px 4px rgba(0, 0, 0, 0.8);
         }
         to {
             text-shadow:
-                0 0 40px rgba(160, 32, 240, 0.8),
-                0 0 80px rgba(160, 32, 240, 0.4),
+                0 0 40px oklch(var(--color-glow-primary) / 0.8),
+                0 0 80px oklch(var(--color-glow-primary) / 0.4),
                 0 2px 4px rgba(0, 0, 0, 0.8);
         }
     }

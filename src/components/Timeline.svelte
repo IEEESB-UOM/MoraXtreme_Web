@@ -46,8 +46,7 @@
         <div class="container mx-auto px-4">
             <div class="flex flex-col items-center justify-center">
                 <h2
-                    class="text-center text-4xl font-bold drop-shadow-lg font-display text-white bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text"
-                    style="text-shadow: 0 0 20px #8b5cf6, 0 0 40px #3b82f6, 0 0 60px #8b5cf6;"
+                    class="text-center text-4xl font-bold drop-shadow-lg font-display text-gradient text-shadow-glow"
                 >
                     MoraXtreme Timeline
                 </h2>
@@ -68,11 +67,7 @@
                     {/if}
                     <div class="timeline-middle">
                         <div
-                            class="w-16 h-16 rounded-full flex items-center justify-center z-100
- bg-white/5 backdrop-blur-md backdrop-saturate-[2.5] backdrop-hue-rotate-[-357deg]
- ring-4 ring-white/20 ring-offset-2 ring-offset-transparent
- shadow-[0_0_24px_rgba(147,51,234,0.8),0_0_48px_rgba(124,58,237,0.6),inset_0_6px_12px_rgba(255,255,255,0.15)]
- hover:shadow-[0_0_36px_rgba(147,51,234,1),0_0_72px_rgba(124,58,237,0.8)] transition-all duration-300"
+                            class="w-16 h-16 rounded-full flex items-center justify-center z-100 bg-white/5 backdrop-blur-md backdrop-saturate-[2.5] backdrop-hue-rotate-[-357deg] ring-4 ring-white/20 ring-offset-2 ring-offset-transparent glass-shadow glass-shadow-hover transition-all duration-300"
                         >
                             <div
                                 class="text-center text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]"
@@ -91,14 +86,7 @@
                         </div>
                     </div>
                     <div
-                        class="{index % 2 === 0
-                            ? 'timeline-end'
-                            : 'timeline-start'} timeline-box max-w-xs lg:max-w-[16rem] p-4 rounded-xl
- bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg]
- border border-white/20 hover:border-white/30
- shadow-[0_0_32px_rgba(147,51,234,0.4),inset_0_1px_0_rgba(255,255,255,0.1),inset_0_-1px_0_rgba(0,0,0,0.1)]
- hover:shadow-[0_0_48px_rgba(147,51,234,0.6),0_0_24px_rgba(168,85,247,0.4),inset_0_1px_0_rgba(255,255,255,0.15)]
- transition-all duration-300 hover:bg-white/10 hover:backdrop-saturate-[2.5]"
+                        class="{index % 2 === 0 ? 'timeline-end' : 'timeline-start'} timeline-box max-w-xs lg:max-w-[16rem] p-4 glass-card glass-shadow glass-shadow-hover"
                     >
                         <h3
                             class="text-base font-bold mb-2 text-center text-white/95 drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]"

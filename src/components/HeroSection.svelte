@@ -7,8 +7,7 @@
             class="hero-content text-center text-white relative z-10 flex flex-col"
         >
             <h1
-                class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 drop-shadow-lg font-display text-white bg-gradient-to-r from-purple-400 via-blue-300 to-purple-500 bg-clip-text"
-                style="text-shadow: 0 0 20px #8b5cf6, 0 0 40px #3b82f6, 0 0 60px #8b5cf6;"
+                class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 drop-shadow-lg font-display text-gradient text-shadow-glow"
             >
                 MoraXtreme 10.0
             </h1>
@@ -18,8 +17,7 @@
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                     href="https://forms.gle/jiF6QXNBAh4wedrE8"
-                    class="btn btn-primary btn-lg"
-                    style="box-shadow: 0 0 20px #8b5cf6ab, 0 0 40px #3b82f670;"
+                    class="btn btn-primary btn-lg btn-glow"
                     >Register Now</a
                 >
             </div>

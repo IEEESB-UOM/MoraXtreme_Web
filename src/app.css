@@ -31,6 +31,20 @@
   --color-warning-content: oklch(97% 0.071 103.193);
   --color-error: oklch(44% 0.177 26.899);
   --color-error-content: oklch(93% 0.032 17.717);
+  
+  /* Custom gradient and glow colors */
+  --color-gradient-start: oklch(0.65 0.15 280);
+  --color-gradient-mid: oklch(0.75 0.1 250);  
+  --color-gradient-end: oklch(0.55 0.12 270);
+  --color-glow-primary: oklch(0.5224 0.0557 241.01);
+  --color-glow-secondary: oklch(0.798 0.032 234.55);
+  --color-glow-accent: oklch(43% 0.078 188.216);
+  
+  /* Glass effect colors */
+  --color-glass-bg: oklch(98% 0.003 247.858 / 0.05);
+  --color-glass-border: oklch(98% 0.003 247.858 / 0.2);
+  --color-glass-hover: oklch(98% 0.003 247.858 / 0.1);
+  
   --radius-selector: 1rem;
   --radius-field: 1rem;
   --radius-box: 1rem;
@@ -41,4 +55,53 @@
   --noise: 0;
 }
 
-@theme {  --font-display: "Orbitron", sans-serif; }
+@theme {  
+  --font-display: "Orbitron", sans-serif;
+  
+  /* Custom color utilities */
+  --color-gradient-start: oklch(0.65 0.15 280);
+  --color-gradient-mid: oklch(0.75 0.1 250);  
+  --color-gradient-end: oklch(0.55 0.12 270);
+  --color-glow-primary: oklch(0.5224 0.0557 241.01);
+  --color-glow-secondary: oklch(0.798 0.032 234.55);
+  --color-glow-accent: oklch(43% 0.078 188.216);
+  --color-glass-bg: oklch(98% 0.003 247.858 / 0.05);
+  --color-glass-border: oklch(98% 0.003 247.858 / 0.2);
+  --color-glass-hover: oklch(98% 0.003 247.858 / 0.1);
+}
+
+/* Custom utility classes */
+.text-gradient {
+  @apply bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent;
+}
+
+.text-shadow-glow {
+  text-shadow: 
+    0 0 20px oklch(var(--color-glow-primary)),
+    0 0 40px oklch(var(--color-glow-secondary)),
+    0 0 60px oklch(var(--color-glow-primary));
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-xl backdrop-saturate-[2] backdrop-hue-rotate-[-357deg] border border-white/20 hover:border-white/30 rounded-xl hover:bg-white/10 transition-all duration-300;
+}
+
+.glass-shadow {
+  box-shadow: 
+    0 0 32px oklch(var(--color-primary) / 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.glass-shadow-hover:hover {
+  box-shadow: 
+    0 0 48px oklch(var(--color-primary) / 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.btn-glow {
+  box-shadow: 0 0 20px oklch(var(--color-primary) / 0.67), 0 0 40px oklch(var(--color-secondary) / 0.44);
+}
+
+.btn-glow-hover:hover {
+  box-shadow: 0 0 40px oklch(var(--color-primary) / 0.5);
+}
