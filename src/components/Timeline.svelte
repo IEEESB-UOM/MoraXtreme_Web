@@ -1,39 +1,46 @@
 <script>
     const timelineEvents = [
         {
-            month: "OCT",
-            day: "1",
-            title: "Training Session",
+            month: "SEP",
+            day: "7",
+            title: "REGISTRATIONS",
             description:
-                "Workshops and mentoring sessions for all registered teams",
+                "Registration period for participants to join MoraXtreme competition",
         },
         {
-            month: "OCT",
-            day: "5",
-            title: "Training Session",
+            month: "SEP",
+            day: "7",
+            title: "WORKSHOPS",
             description:
-                "Workshops and mentoring sessions for all registered teams",
+                "Skill-building workshops and mentoring sessions for all registered participants",
         },
         {
-            month: "OCT",
-            day: "10",
-            title: "Launch Day",
-            description:
-                "Official kick-off of MoraXtreme Participants register and teams form",
-        },
-        {
-            month: "OCT",
+            month: "SEP",
             day: "15",
-            title: "Launch Day",
+            title: "AWARENESS SESSION",
             description:
-                "Official kick-off of MoraXtreme Participants register and teams form",
+                "Information session to brief participants about the competition format and expectations",
+        },
+        {
+            month: "SEP",
+            day: "20",
+            title: "ELIMINATION ROUND",
+            description:
+                "Qualifying round to select teams for the final competition",
         },
         {
             month: "OCT",
-            day: "25",
-            title: "Launch Day",
+            day: "12",
+            title: "MORAXTREME FINAL ROUND",
             description:
-                "Official kick-off of MoraXtreme Participants register and teams form",
+                "Final competition round where qualified teams compete for victory",
+        },
+        {
+            month: "OCT",
+            day: "26",
+            title: "IEEEXTREME 19.0",
+            description:
+                "Global IEEE programming competition - the ultimate challenge",
         },
     ];
 </script>
@@ -51,7 +58,8 @@
                     MoraXtreme Timeline
                 </h2>
                 <p class="text-base-content text-lg mt-4 text-center">
-                    Discover the key milestones and events leading up to the competition.
+                    Discover the key milestones and events leading up to the
+                    competition.
                 </p>
             </div>
         </div>
@@ -86,7 +94,9 @@
                         </div>
                     </div>
                     <div
-                        class="{index % 2 === 0 ? 'timeline-end' : 'timeline-start'} timeline-box max-w-xs lg:max-w-[16rem] p-4 glass-card glass-shadow glass-shadow-hover"
+                        class="{index % 2 === 0
+                            ? 'timeline-end'
+                            : 'timeline-start'} timeline-box max-w-xs lg:max-w-[16rem] p-4 glass-card glass-shadow glass-shadow-hover"
                     >
                         <h3
                             class="text-base font-bold mb-2 text-center text-white/95 drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]"
