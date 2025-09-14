@@ -26,7 +26,7 @@
 						<li><a href="https://forms.gle/jiF6QXNBAh4wedrE8">Register</a></li>
 						<li><a href="/competition" class:active={$page.route.id === '/competition'}>Competition</a></li>
 						<li><a href="/faq" class:active={$page.route.id === '/faq'}>FAQ</a></li>
-						<li><a href="/contact" class:active={$page.route.id === '/contact'}>Contact</a></li>
+						
 					</ul>
 				</div>
 				<a href="/" class="btn btn-ghost">
@@ -38,7 +38,7 @@
 					<li><a href="/" class:active={$page.route.id === '/'}>Home</a></li>
 					<li><a href="/competition" class:active={$page.route.id === '/competition'}>Competition</a></li>
 					<li><a href="/faq" class:active={$page.route.id === '/faq'}>FAQ</a></li>
-					<li><a href="/contact" class:active={$page.route.id === '/contact'}>Contact</a></li>
+					
 				</ul>
 			</div>
 			<div class="navbar-end">
