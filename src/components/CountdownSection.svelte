@@ -142,7 +142,7 @@
 
             <!-- Seconds -->
             <div
-                class="w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 flex flex-col items-center justify-center glass-card glass-shadow glass-shadow-hover hover:-translate-y-0.5 ease-in-out"
+                class="w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 hidden sm:flex flex-col items-center justify-center glass-card glass-shadow glass-shadow-hover hover:-translate-y-0.5 ease-in-out"
             >
                 <div
                     class="font-orbitron font-bold text-xl xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-white"

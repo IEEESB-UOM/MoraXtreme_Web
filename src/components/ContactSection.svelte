@@ -28,7 +28,7 @@
     },
     {
       name: "Hasaruvi Kodithuwakku",
-      role: "Delegate Handling Chair",
+      role: "Delegate Handling Lead",
       organization: [""],
       email: "",
       phone: " +94 70 776 4126",
