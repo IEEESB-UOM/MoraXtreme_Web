@@ -1,13 +1,29 @@
 <script lang="ts">
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
 	import { page } from '$app/stores';
 	
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+	
+	<!-- Open Graph meta tags -->
+	<meta property="og:title" content="MoraXtreme" />
+	<meta property="og:description" content="MoraXtreme - Ultimate Gaming Competition" />
+	<meta property="og:image" content="/cover.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="MoraXtreme" />
+	
+	<!-- Twitter Card meta tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="MoraXtreme" />
+	<meta name="twitter:description" content="MoraXtreme - Ultimate Gaming Competition" />
+	<meta name="twitter:image" content="/cover.png" />
 </svelte:head>
 
 <div class="drawer">

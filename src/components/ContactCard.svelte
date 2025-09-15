@@ -13,21 +13,19 @@
 
 <div
   class="flex flex-col sm:flex-row items-center w-full max-w-xs sm:max-w-md mx-auto hover-scale p-4 glass-card glass-shadow glass-shadow-hover"
-  in:fly={{ y: 20, duration: 400 }}
-  out:fade
 >
   <img
     src={contact.imageUrl}
     alt={contact.name}
-    class="w-32 h-32 sm:w-36 sm:h-36 rounded-full object-cover border-4 border-[#073836] shadow-lg z-10 shrink-0"
+    class="w-32 h-32 sm:w-36 sm:h-36 rounded-full object-cover shadow-lg z-10 shrink-0"
   />
 
   <div
     class="timeline-end  max-w-xs lg:max-w-[18rem] p-4 glass-shadow glass-shadow-hover
-           w-full p-4 pt-10 sm:pt-4 sm:pl-10 -mt-8 sm:mt-0 sm:-ml-6"
+           w-full pt-10 sm:pt-4 sm:pl-10 -mt-8 sm:mt-0 sm:-ml-6 text-center sm:text-left"
   >
     <h3 class="text-lg font-bold text-white-900">{contact.name}</h3>
-    <p class="text-sm font-semibold text-white-300">{contact.role}</p>
+    <p class="text-sm font-semibold text-white-300 pt-1">{contact.role}</p>
 
     <!-- <div class="text-white-600 text-sm mb-4">
       {#if Array.isArray(contact.organization)}
@@ -52,7 +50,7 @@
 
     <a
       href={"tel:" + contact.phone.replace(/\s+/g, "")}
-      class="flex items-center justify-center sm:justify-start text-xs text-white-700 hover:text-yellow-600 transition-colors"
+      class="flex pt-4 items-center justify-center sm:justify-start text-xs text-white-700 hover:text-yellow-600 transition-colors"
     >
       <svg class="w-4 h-4 mr-2 shrink-0" fill="currentColor" viewBox="0 0 20 20">
         <path
