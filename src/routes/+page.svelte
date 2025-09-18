@@ -19,6 +19,12 @@
 	});
 </script>
 
+<svelte:head>
+	<title>MoraXtreme 2025 - Sri Lanka's Largest Algorithmic Coding Competition</title>
+	<meta name="description" content="Join MoraXtreme 2025, Sri Lanka's premier algorithmic coding competition. Compete with the best programmers, solve challenging problems, and win exciting prizes. Register now!" />
+	<meta name="keywords" content="MoraXtreme 2025, programming competition, algorithmic coding, Sri Lanka, coding contest, competitive programming, register" />
+</svelte:head>
+
 {#if showError}
 	<div
 		class="alert alert-error fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-auto"

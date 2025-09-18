@@ -3,27 +3,68 @@
 	import { page } from '$app/stores';
 	
 	let { children } = $props();
+	
+	const siteUrl = 'https://moraxtreme.lk';
+	const currentUrl = $derived(`${siteUrl}${$page.url.pathname}`);
+	const metaTitle = 'MoraXtreme - Sri Lanka\'s Largest Algorithmic Coding Competition';
+	const metaDescription = 'Join MoraXtreme, Sri Lanka\'s premier algorithmic coding competition. Test your programming skills, compete with the best, and win exciting prizes.';
 </script>
 
 <svelte:head>
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-	<link rel="manifest" href="/site.webmanifest" />
+	<!-- Basic meta tags -->
+	<title>{metaTitle}</title>
+	<meta name="description" content={metaDescription} />
+	<meta name="keywords" content="programming competition, algorithmic coding, Sri Lanka, MoraXtreme, coding contest, competitive programming" />
+	<meta name="author" content="MoraXtreme Team" />
+	<meta name="robots" content="index, follow" />
+	<link rel="canonical" href={currentUrl} />
+	
+	<!-- Favicon and icons -->
+	<link rel="icon" type="image/x-icon" href="{siteUrl}/favicon.ico" />
+	<link rel="icon" type="image/png" sizes="16x16" href="{siteUrl}/favicon-16x16.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="{siteUrl}/favicon-32x32.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="{siteUrl}/apple-touch-icon.png" />
+	<link rel="manifest" href="{siteUrl}/site.webmanifest" />
 	
 	<!-- Open Graph meta tags -->
-	<meta property="og:title" content="MoraXtreme" />
-	<meta property="og:description" content="MoraXtreme - Ultimate Gaming Competition" />
-	<meta property="og:image" content="/cover.png" />
+	<meta property="og:title" content={metaTitle} />
+	<meta property="og:description" content={metaDescription} />
+	<meta property="og:image" content="{siteUrl}/cover.png" />
+	<meta property="og:image:alt" content="MoraXtreme - Sri Lanka's Largest Algorithmic Coding Competition" />
+	<meta property="og:url" content={currentUrl} />
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="MoraXtreme" />
+	<meta property="og:locale" content="en_US" />
 	
 	<!-- Twitter Card meta tags -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="MoraXtreme" />
-	<meta name="twitter:description" content="MoraXtreme - Ultimate Gaming Competition" />
-	<meta name="twitter:image" content="/cover.png" />
+	<meta name="twitter:title" content={metaTitle} />
+	<meta name="twitter:description" content={metaDescription} />
+	<meta name="twitter:image" content="{siteUrl}/cover.png" />
+	<meta name="twitter:image:alt" content="MoraXtreme - Sri Lanka's Largest Algorithmic Coding Competition" />
+	
+	<!-- Structured Data (JSON-LD) -->
+	{@html `<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Event",
+		"name": "MoraXtreme",
+		"description": "${metaDescription}",
+		"url": "${currentUrl}",
+		"image": "${siteUrl}/cover.png",
+		"organizer": {
+			"@type": "Organization",
+			"name": "MoraXtreme Team",
+			"url": "${siteUrl}"
+		},
+		"location": {
+			"@type": "Country",
+			"name": "Sri Lanka"
+		},
+		"eventStatus": "https://schema.org/EventScheduled",
+		"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode"
+	}
+	</script>`}
 </svelte:head>
 
 <div class="drawer">
