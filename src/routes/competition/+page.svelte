@@ -3,7 +3,9 @@
 </script>
 
 <svelte:head>
-	<title>Competition Details - MoraXtreme</title>
+	<title>Competition Details - MoraXtreme 10.0 | Algorithmic Coding Competition</title>
+	<meta name="description" content="Learn about MoraXtreme 10.0 competition format, eligibility, timeline, and prizes. Sri Lanka's premier algorithmic coding competition for university students. Register now!" />
+	<meta name="keywords" content="MoraXtreme 10.0, competition details, algorithmic coding, university students, Sri Lanka, prizes, timeline, elimination round, final round" />
 </svelte:head>
 
 <ParallaxBg />

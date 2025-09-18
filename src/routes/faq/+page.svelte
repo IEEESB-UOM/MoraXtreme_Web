@@ -42,7 +42,9 @@
 </script>
 
 <svelte:head>
-	<title>FAQ - MoraXtreme</title>
+	<title>FAQ - MoraXtreme 10.0 | Frequently Asked Questions</title>
+	<meta name="description" content="Find answers to frequently asked questions about MoraXtreme 10.0. Learn about registration, eligibility, competition format, teams, and prizes." />
+	<meta name="keywords" content="MoraXtreme FAQ, frequently asked questions, registration, eligibility, competition format, teams, prizes, Sri Lanka coding competition" />
 </svelte:head>
 
 <ParallaxBg />
