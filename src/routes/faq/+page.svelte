@@ -4,24 +4,40 @@
 	const faqs = [
 		{
 			question: "What is the difference between MoraXtreme and IEEEXtreme?",
-			answer: `MoraXtreme is a local preparatory competition for Sri Lankan university students, while IEEEXtreme is the global 24-hour hackathon organized by IEEE.`
+			answer: `MoraXtreme is a national coding competition organized by the IEEE Student Branch of the University of Moratuwa, serving as a local preparatory event for Sri Lankan university students. IEEEXtreme is a global 24-hour programming competition organized by IEEE, featuring teams from universities worldwide.`
 		},
 		{
 			question: "Who can participate in MoraXtreme 10.0?",
-			answer: `Any undergraduate student from a recognized Sri Lankan university.`
+			answer: `Any undergraduate student enrolled in a recognized Sri Lankan university is eligible to participate. Additionally, students who have completed their 2024 Advanced Level (A/L) examinations and are awaiting university enrollment can also compete.`
 		},
 		{
-			question: "How to register for the competition?",
-			answer: `Through the official registration form provided on the MoraXtreme 10.0 webpage.`
+			question: "How do I register for MoraXtreme 10.0?",
+			answer: `Registration is done through the official registration form available on the MoraXtreme 10.0 official website.`
 		},
 		{
 			question: "Is MoraXtreme 10.0 only for University of Moratuwa students?",
-			answer: `No. It is open to students from all universities in Sri Lanka.`
+			answer: `No, the competition is open to undergraduate students from all universities across Sri Lanka.`
 		},
 		{
-			question: "Do I need a team to participate?",
-			answer: `No.`
+			question: "Do I need a team to participate in MoraXtreme?",
+			answer: `Team participation is optional. Individual participation is allowed, or you can form a team of up to three members from the same university.`
 		},
+		{
+			question: "What is the format of MoraXtreme 10.0?",
+			answer: `MoraXtreme consists of two rounds: a 12-hour online elimination round followed by an 8-hour final round held physically at the University of Moratuwa for the top teams.`
+		},
+		{
+			question: "What skills does MoraXtreme test?",
+			answer: `The competition challenges participants' algorithmic, programming, and mathematical problem-solving skills.`
+		},
+		{
+			question: "Are there any prizes or recognition for winners?",
+			answer: `Yes, winners receive certificates of participation and awards, with promotional exposure for sponsors and partners during the event.`
+		},
+		{
+			question: "Will there be workshops or preparatory sessions?",
+			answer: `Yes, leading up to the competition, workshops and awareness sessions are held to prepare participants.`
+		}
 	];
 </script>
 
