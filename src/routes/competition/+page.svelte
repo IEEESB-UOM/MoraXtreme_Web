@@ -24,10 +24,10 @@
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">About MoraXtreme</h2>
 				<div class="space-y-4 text-white text-base leading-relaxed">
 					<p>
-						MoraXtreme is Sri Lanka's premier annual algorithmic coding competition, proudly organized by the IEEE Student Branch of the University of Moratuwa in collaboration with its IEEE Computer Society Student Branch Chapter. It serves as the national adaptation and preparatory event for the global IEEEXtreme competition, fostering competitive coding skills and innovation among university students islandwide.
+						MoraXtreme 10.0 marks the 10th edition of the annual flagship coding competition organized by the IEEE Student Branch of the University of Moratuwa. Designed as the perfect lead-up to IEEEXtreme, the world-renowned global hackathon, MoraXtreme provides Sri Lankan competitors with an invaluable platform to sharpen their skills before the international challenge.
 					</p>
 					<p>
-						MoraXtreme is an 8+12-hour national coding competition tailored specifically for Sri Lankan university students. It serves as a local adaptation of IEEEXtreme to help participants prepare for the global event and foster competitive coding skills.
+						The competition features high-quality algorithmic and mathematical problem-solving challenges that mirror the rigor of IEEEXtreme. Over the years, MoraXtreme has empowered participants to refine their competitive coding abilities, build confidence, and ultimately secure stronger global rankings at IEEEXtreme.
 					</p>
 				</div>
 			</div>
@@ -38,7 +38,7 @@
 				<div class="text-white text-base leading-relaxed">
 					<p class="mb-4">MoraXtreme consists of two rounds:</p>
 					<ul class="list-disc list-inside space-y-2 ml-4">
-						<li><strong>Elimination Round:</strong> A 12-hour online coding competition open to all registered participants from recognized Sri Lankan universities.</li>
+						<li><strong>Elimination Round:</strong> A 12-hour online coding marathon hosted on HackerRank, open to all registered participants from recognized Sri Lankan universities.</li>
 						<li><strong>Final Round:</strong> An 8-hour physical round held at the University of Moratuwa premises where the top teams from the elimination round compete to determine the ultimate champions.</li>
 					</ul>
 				</div>
