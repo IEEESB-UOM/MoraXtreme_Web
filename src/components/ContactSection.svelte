@@ -14,7 +14,7 @@
       name: "Mindiya Karunasinghe",
       role: "Event Vice Chair",
       organization: "",
-      email: "",
+      email: "mindiya@ieee.org",
       phone: "+94 71 232 8775",
       imageUrl: "/Contact/mindiya.png",
     },
