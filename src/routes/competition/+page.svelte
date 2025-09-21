@@ -24,10 +24,7 @@
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">About MoraXtreme</h2>
 				<div class="space-y-4 text-white text-base leading-relaxed">
 					<p>
-						MoraXtreme is Sri Lanka's premier annual algorithmic coding competition, proudly organized by the IEEE Student Branch of the University of Moratuwa in collaboration with its IEEE Computer Society Student Branch Chapter. It serves as the national adaptation and preparatory event for the global IEEEXtreme competition, fostering competitive coding skills and innovation among university students islandwide.
-					</p>
-					<p>
-						MoraXtreme is an 8+12-hour national coding competition tailored specifically for Sri Lankan university students. It serves as a local adaptation of IEEEXtreme to help participants prepare for the global event and foster competitive coding skills.
+						MoraXtreme is Sri Lanka’s premier annual algorithmic coding competition, organized by the IEEE Student Branch in collaboration with the IEEE Computer Society of the University of Moratuwa. It serves as the national adaptation and preparatory event for the global IEEEXtreme competition, fostering competitive coding skills and innovation among university students islandwide.
 					</p>
 				</div>
 			</div>
@@ -49,9 +46,9 @@
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">Eligibility</h2>
 				<div class="text-white text-base leading-relaxed">
 					<ul class="list-disc list-inside space-y-2">
-						<li>Open to undergraduate students from all Sri Lankan universities.</li>
+						<li>Open to undergraduates from all Sri Lankan universities.</li>
 						<li>2024 A/L graduates awaiting university enrollment can also participate.</li>
-						<li>Teams may consist of up to three members from the same university, or individuals may compete solo.</li>
+						<li>Teams can have up to three members from the same university, or participants may compete individually.</li>
 					</ul>
 				</div>
 			</div>

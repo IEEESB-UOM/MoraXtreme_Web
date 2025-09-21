@@ -8,7 +8,7 @@
       organization: [""],
       email: "sanjulagathsara.ieee.org",
       phone: " +94 70 776 4126",
-      imageUrl: "/Contact/sanjula.jpeg",
+      imageUrl: "/Contact/sanjula.avif",
     },
     {
       name: "Sonath Kirindage",
@@ -16,7 +16,7 @@
       organization: "",
       email: "sonath.sanvida@gmail.com",
       phone: "+94 710 338 048",
-      imageUrl: "/Contact/sonath.png",
+      imageUrl: "/Contact/sonath.avif",
     },
     {
       name: "Mindiya Karunasinghe",
@@ -24,7 +24,7 @@
       organization: "",
       email: "mindiya@ieee.org",
       phone: "+94 71 232 8775",
-      imageUrl: "/Contact/mindiya.png",
+      imageUrl: "/Contact/mindiya.avif",
     },
     {
       name: "Thamalu Bambaravanage",
@@ -32,7 +32,7 @@
       organization: [""],
       email: "thamalu.bambaravanage@ieee.org",
       phone: " +94 707 806 767",
-      imageUrl: "/Contact/thamalu.png",
+      imageUrl: "/Contact/thamalu.avif",
     },
     {
       name: "Hasaruvi Kodithuwakku",
@@ -40,7 +40,7 @@
       organization: [""],
       email: "hasaruvikodithuwakku@gmail.com",
       phone: " +94 70 776 4126",
-      imageUrl: "/Contact/hasaruvi.png",
+      imageUrl: "/Contact/hasaruvi.avif",
     },
     {
       name: "Ameera Weerasuriya",
@@ -48,7 +48,7 @@
       organization: [""],
       email: "Ameerathiwanka@ieee.org",
       phone: "+94 71 135 6855",
-      imageUrl: "/Contact/ameera.jpeg",
+      imageUrl: "/Contact/ameera.avif",
     },
     
   ];

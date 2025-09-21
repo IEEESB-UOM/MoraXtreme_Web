@@ -39,7 +39,7 @@
 
     <a
       href={"mailto:" + contact.email}
-      class="flex items-center justify-center sm:justify-start text-xs text-white-700 hover:text-yellow-600 transition-colors"
+      class="flex items-center justify-center sm:justify-start text-xs text-white-700 hover:text-indigo-300 transition-colors"
     >
       <svg class="w-4 h-4 mr-2 shrink-0" fill="currentColor" viewBox="0 0 20 20">
         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
@@ -50,7 +50,7 @@
 
     <a
       href={"tel:" + contact.phone.replace(/\s+/g, "")}
-      class="flex pt-4 items-center justify-center sm:justify-start text-xs text-white-700 hover:text-yellow-600 transition-colors"
+      class="flex pt-4 items-center justify-center sm:justify-start text-xs text-white-700 hover:text-indigo-300 transition-colors"
     >
       <svg class="w-4 h-4 mr-2 shrink-0" fill="currentColor" viewBox="0 0 20 20">
         <path

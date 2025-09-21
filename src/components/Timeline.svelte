@@ -19,7 +19,7 @@
             day: "15",
             title: "AWARENESS SESSION",
             description:
-                "Information session to brief participants about the competition format and expectations",
+                "Informative session to brief participants on the competition format and guidelines",
         },
         {
             month: "SEP",
