@@ -64,10 +64,11 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center items-center w-full">
-        <ul
-            class="timeline timeline-vertical max-lg:timeline-compact lg:timeline-horizontal items-center py-16"
-        >
+    <div class="w-full overflow-x-auto">
+        <div class="min-w-full lg:px-8">
+            <ul
+                class="timeline timeline-vertical max-lg:timeline-compact lg:timeline-horizontal items-center py-16 lg:min-w-max"
+            >
             {#each timelineEvents as event, index}
                 <li class="min-w-[12rem] gap-x-8 gap-y-0 lg:gap-y-8 lg:gap-x-0">
                     {#if index > 0}
@@ -114,6 +115,7 @@
                     {/if}
                 </li>
             {/each}
-        </ul>
+            </ul>
+        </div>
     </div>
 </section>
