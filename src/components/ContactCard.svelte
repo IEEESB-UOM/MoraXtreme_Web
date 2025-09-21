@@ -37,7 +37,7 @@
       {/if}
     </div> -->
 
-    <!-- <a
+    <a
       href={"mailto:" + contact.email}
       class="flex items-center justify-center sm:justify-start text-xs text-white-700 hover:text-yellow-600 transition-colors"
     >
@@ -46,7 +46,7 @@
         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
       </svg>
       <span class="truncate">{contact.email}</span>
-    </a> -->
+    </a>
 
     <a
       href={"tel:" + contact.phone.replace(/\s+/g, "")}
