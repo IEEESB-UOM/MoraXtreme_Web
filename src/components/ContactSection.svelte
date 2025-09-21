@@ -3,10 +3,18 @@
 
   const contacts = [
     {
+      name: "Sanjula Gathsara",
+      role: "Chairman - IEEE student branch UOM",
+      organization: [""],
+      email: "sanjulagathsara.ieee.org",
+      phone: " +94 70 776 4126",
+      imageUrl: "/Contact/sanjula.jpeg",
+    },
+    {
       name: "Sonath Kirindage",
       role: "Event Chair",
       organization: "",
-      email: "",
+      email: "sonath.sanvida@gmail.com",
       phone: "+94 710 338 048",
       imageUrl: "/Contact/sonath.png",
     },
@@ -22,7 +30,7 @@
       name: "Thamalu Bambaravanage",
       role: "Event Vice Chair",
       organization: [""],
-      email: "",
+      email: "thamalu.bambaravanage@ieee.org",
       phone: " +94 707 806 767",
       imageUrl: "/Contact/thamalu.png",
     },
@@ -30,10 +38,19 @@
       name: "Hasaruvi Kodithuwakku",
       role: "Delegate Handling Lead",
       organization: [""],
-      email: "",
+      email: "hasaruvikodithuwakku@gmail.com",
       phone: " +94 70 776 4126",
       imageUrl: "/Contact/hasaruvi.png",
-    }
+    },
+    {
+      name: "Ameera Weerasuriya",
+      role: "CS Chapter Chairman",
+      organization: [""],
+      email: "Ameerathiwanka@ieee.org",
+      phone: "+94 71 135 6855",
+      imageUrl: "/Contact/ameera.jpeg",
+    },
+    
   ];
 </script>
 
@@ -64,6 +81,12 @@
       <div class="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-1 w-full ">
         {#each contacts.slice(2, 4) as contact}
           <ContactCard {contact} />
+        {/each}
+      </div>
+            <div class="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-1 w-full ">
+        {#each contacts.slice(4, 6) as contact}
+          <ContactCard {contact} />
+          
         {/each}
       </div>
 
