@@ -20,23 +20,31 @@
 		},
 		{
 			question: "Do I need a team to participate in MoraXtreme?",
-			answer: `Team participation is optional. Participants may compete individually or as part of a team of up to three members from the same university.`
+			answer: `Team participation is optional. Participants may compete individually or as part of a team of up to three members from the same university. However, we recommend team participation to encourage collaboration, enhance problem-solving, and compete more effectively.`
 		},
 		{
 			question: "What is the structure of MoraXtreme 10.0?",
-			answer: `MoraXtreme consists of two rounds: a 12-hour online elimination round followed by an 8-hour final round held physically at the University of Moratuwa for the top teams.`
+			answer: `MoraXtreme 10.0 consists of two rounds: a 12-hour online elimination round followed by an 8-hour final round held physically at the University of Moratuwa for the top teams.`
 		},
 		{
-			question: "What skills does MoraXtreme test?",
-			answer: `The competition challenges participants' algorithmic, programming, and mathematical problem-solving skills.`
+			question: "Do we need any prior knowledge, and what skills are tested?",
+			answer: `The competition challenges participants' algorithmic, programming, and mathematical problem-solving skills. Beginners can get prepared through our specially designed preparatory workshops.`
 		},
 		{
-			question: "Are there any prizes or recognition for winners?",
-			answer: `Yes, winners receive certificates of participation and awards, with promotional exposure for sponsors and partners during the event.`
+			question: "What prizes or recognition are given to winners?",
+			answer: `Winners will receive certificates of achievement and cash prizes, with promotional exposure for sponsors and partners during the event.`
 		},
 		{
 			question: "Will there be workshops or preparatory sessions?",
 			answer: `Yes, leading up to the competition, workshops and awareness sessions are held to prepare participants.`
+		},
+		{
+			question: "Can teams be formed with members from different universities?",
+			answer: `No, all team members must be from the same university.`
+		},
+		{
+			question: "Is there a registration fee for MoraXtreme 10.0?",
+			answer: `No, registration is completely free of charge.`
 		}
 	];
 </script>

@@ -5,39 +5,39 @@
             day: "7",
             title: "REGISTRATIONS",
             description:
-                "Registration period for participants to join MoraXtreme competition",
+                "Registration period for participants to join MoraXtreme 10.0 competition (Sep 7 – Oct 1, 2025)",
         },
         {
             month: "SEP",
             day: "7",
             title: "WORKSHOPS",
             description:
-                "Skill-building workshops and mentoring sessions for all registered participants",
+                "Skill-building workshops and mentoring sessions for all registered participants (Sep 7 – Oct 5, 2025)",
         },
         {
             month: "SEP",
             day: "15",
             title: "AWARENESS SESSION",
             description:
-                "Informative session to brief participants on the competition format and guidelines",
+                "Informative session to brief participants on the competition format and guidelines (Sep 15, 2025)",
         },
         {
-            month: "SEP",
-            day: "20",
+            month: "OCT",
+            day: "8",
             title: "ELIMINATION ROUND",
             description:
-                "Qualifying round to select teams for the final competition",
+                "The 12-hour online qualifying round to select the top 10 teams advancing to the finals",
         },
         {
             month: "OCT",
-            day: "12",
-            title: "MORAXTREME FINAL ROUND",
+            day: "18",
+            title: "GRAND FINALS AND THE AWARDS CEREMONY",
             description:
-                "Final competition round where qualified teams compete for victory",
+                "The final 8-hour in-person round where qualified teams compete for victory",
         },
         {
             month: "OCT",
-            day: "26",
+            day: "25",
             title: "IEEEXTREME 19.0",
             description:
                 "Global IEEE programming competition - the ultimate challenge",
