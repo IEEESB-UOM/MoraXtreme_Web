@@ -3,40 +3,48 @@
 
 	const faqs = [
 		{
-			question: "What is the difference between MoraXtreme and IEEEXtreme?",
-			answer: `MoraXtreme is a national coding competition organized by the IEEE Student Branch of the University of Moratuwa, serving as a local preparatory event for Sri Lankan university students. IEEEXtreme is a global 24-hour programming competition organized by IEEE, featuring teams from universities worldwide.`
+			question: "Who can participate in MoraXtreme 10.0?",
+			answer: `All undergraduates enrolled in a recognized Sri Lankan university are eligible to participate. Students who have completed the 2024 Advanced Level (A/L) examinations and are awaiting university admission are also eligible to compete.`
 		},
 		{
-			question: "Who can participate in MoraXtreme 10.0?",
-			answer: `Any undergraduate student enrolled in a recognized Sri Lankan university is eligible to participate. Additionally, students who have completed their 2024 Advanced Level (A/L) examinations and are awaiting university enrollment can also compete.`
+			question: "What is the difference between MoraXtreme and IEEEXtreme?",
+			answer: `MoraXtreme is a national coding competition organized by the IEEE Student Branch in collaboration with the IEEE Computer Society of the University of Moratuwa, serving as a local preparatory event for Sri Lankan university students. IEEEXtreme is a global 24-hour programming competition organized by IEEE, featuring teams from universities worldwide.`
 		},
 		{
 			question: "How do I register for MoraXtreme 10.0?",
-			answer: `Registration is done through the official registration form available on the MoraXtreme 10.0 official website.`
+			answer: `Participants can register via the official form on the MoraXtreme 10.0 website.`
 		},
 		{
 			question: "Is MoraXtreme 10.0 only for University of Moratuwa students?",
-			answer: `No, the competition is open to undergraduate students from all universities across Sri Lanka.`
+			answer: `No, the competition is open to undergraduates from all recognized universities across Sri Lanka.`
 		},
 		{
 			question: "Do I need a team to participate in MoraXtreme?",
-			answer: `Team participation is optional. Individual participation is allowed, or you can form a team of up to three members from the same university.`
+			answer: `Team participation is optional. Participants may compete individually or as part of a team of up to three members from the same university. However, we recommend team participation to encourage collaboration, enhance problem-solving, and compete more effectively.`
 		},
 		{
-			question: "What is the format of MoraXtreme 10.0?",
-			answer: `MoraXtreme consists of two rounds: a 12-hour online elimination round followed by an 8-hour final round held physically at the University of Moratuwa for the top teams.`
+			question: "What is the structure of MoraXtreme 10.0?",
+			answer: `MoraXtreme 10.0 consists of two rounds: a 12-hour online elimination round followed by an 8-hour final round held physically at the University of Moratuwa for the top teams.`
 		},
 		{
-			question: "What skills does MoraXtreme test?",
-			answer: `The competition challenges participants' algorithmic, programming, and mathematical problem-solving skills.`
+			question: "Do we need any prior knowledge, and what skills are tested?",
+			answer: `The competition challenges participants' algorithmic, programming, and mathematical problem-solving skills. Beginners can get prepared through our specially designed preparatory workshops.`
 		},
 		{
-			question: "Are there any prizes or recognition for winners?",
-			answer: `Yes, winners receive certificates of participation and awards, with promotional exposure for sponsors and partners during the event.`
+			question: "What prizes or recognition are given to winners?",
+			answer: `Winners will receive certificates of achievement and cash prizes, with promotional exposure for sponsors and partners during the event.`
 		},
 		{
 			question: "Will there be workshops or preparatory sessions?",
 			answer: `Yes, leading up to the competition, workshops and awareness sessions are held to prepare participants.`
+		},
+		{
+			question: "Can teams be formed with members from different universities?",
+			answer: `No, all team members must be from the same university.`
+		},
+		{
+			question: "Is there a registration fee for MoraXtreme 10.0?",
+			answer: `No, registration is completely free of charge.`
 		}
 	];
 </script>
