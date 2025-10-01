@@ -4,26 +4,25 @@
             month: "SEP",
             day: "7",
             title: "REGISTRATIONS",
-            description:
-                "Registration period for participants to join MoraXtreme 10.0 competition (Sep 7 – Oct 1, 2025)",
+            description: "Registration period for participants to join MoraXtreme 10.0 competition",
         },
         {
             month: "SEP",
             day: "7",
-            title: "WORKSHOPS",
+            title: "AWARENESS SESSION",
             description:
-                "Skill-building workshops and mentoring sessions for all registered participants (Sep 7 – Oct 5, 2025)",
+                "Informative session to brief participants on the competition format and guidelines",
         },
         {
             month: "SEP",
             day: "15",
-            title: "AWARENESS SESSION",
+            title: "WORKSHOPS",
             description:
-                "Informative session to brief participants on the competition format and guidelines (Sep 15, 2025)",
+                "Skill-building workshops and mentoring sessions for all registered participants",
         },
         {
             month: "OCT",
-            day: "8",
+            day: "6",
             title: "ELIMINATION ROUND",
             description:
                 "The 12-hour online qualifying round to select the top 10 teams advancing to the finals",

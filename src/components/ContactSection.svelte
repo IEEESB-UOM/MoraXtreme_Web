@@ -11,6 +11,14 @@
       imageUrl: "/Contact/sanjula.avif",
     },
     {
+      name: "Ameera Weerasuriya",
+      role: "CS Chapter Chairman",
+      organization: [""],
+      email: "Ameerathiwanka@ieee.org",
+      phone: "+94 71 135 6855",
+      imageUrl: "/Contact/ameera.avif",
+    },
+    {
       name: "Sonath Kirindage",
       role: "Event Chair",
       organization: "",
@@ -41,14 +49,6 @@
       email: "hasaruvikodithuwakku@gmail.com",
       phone: " +94 70 776 4126",
       imageUrl: "/Contact/hasaruvi.avif",
-    },
-    {
-      name: "Ameera Weerasuriya",
-      role: "CS Chapter Chairman",
-      organization: [""],
-      email: "Ameerathiwanka@ieee.org",
-      phone: "+94 71 135 6855",
-      imageUrl: "/Contact/ameera.avif",
     },
     
   ];
