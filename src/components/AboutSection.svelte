@@ -6,7 +6,7 @@
 					<h2
 						class="text-center text-4xl font-bold drop-shadow-lg font-display text-gradient text-shadow-glow"
 					>
-						WHAT IS <span class="text-secondary">MoraXtreme?</span>
+						Why Join <span class="text-secondary">MoraXtreme?</span>
 					</h2>
 				</div>
 			</div>
@@ -18,7 +18,7 @@
 				class="glass-card glass-shadow glass-shadow-hover p-6 flex items-center justify-center h-full min-h-[150px]"
 			>
 				<p class="font-bold">
-					Annual 20-hour<br />coding competition
+					Sri Lanka’s Leading<br />Competitive Coding Competition
 				</p>
 			</div>
 			<div
@@ -58,7 +58,7 @@
 				<p
 					class="text-base md:text-lg leading-relaxed text-base-content/80 mt-10"
 				>
-					MoraXtreme is Sri Lanka’s premier annual algorithmic coding hackathon, proudly organized by the IEEE Student Branch in collaboration with the IEEE Computer Society of the University of Moratuwa. Designed as a 12-hour online coding challenge followed by an intense 8-hour physical round, MoraXtreme brings together the brightest minds from universities across the country to showcase their expertise in algorithmic and mathematical problem-solving.
+					MoraXtreme is Sri Lanka’s premier annual algorithmic coding hackathon, proudly organized by the IEEE Student Branch in collaboration with the IEEE Computer Society of the University of Moratuwa.<br/>Designed as a 12-hour online coding challenge followed by an intense 8-hour physical round, MoraXtreme brings together the brightest minds from universities across the country to showcase their expertise in algorithmic and mathematical problem-solving.
 				</p>
 			</div>
 		</div>
@@ -67,7 +67,7 @@
 			<div
 				class="glass-card glass-shadow glass-shadow-hover p-8 space-y-4"
 			>
-				<h3 class="text-xl font-bold font-display">Core Values</h3>
+				<h3 class="text-xl font-bold font-display">What You’ll Gain</h3>
 				<ul
 					class="list-disc list-inside space-y-2 text-base-content/80 text-sm"
 				>
@@ -86,7 +86,7 @@
 				>
 					<li>Experience challenging, fun algorithmic puzzles</li>
 					<li>Enhance coding & analytical skills</li>
-					<li>Network with like-minded peers and experts</li>
+					<li>Connect with the best problem solvers in the country</li>
 				</ul>
 			</div>
 
@@ -94,14 +94,14 @@
 				class="glass-card glass-shadow glass-shadow-hover p-8 space-y-4"
 			>
 				<h3 class="text-xl font-bold font-display">
-					MoraXtreme Impact
+					Our Goals & Aims
 				</h3>
 				<ul
 					class="list-disc list-inside space-y-2 text-base-content/80 text-sm"
 				>
-					<li>Largest algorithmic hackathon in Sri Lanka</li>
-					<li>Builds a competitive coding community</li>
-					<li>Stepping stone to international coding contests</li>
+					<li>Increase IEEEXtreme Participation and Rankings in Sri Lanka</li>
+					<li>Build a Thriving Competitive Coding Community</li>
+					<li>Create a platform for undergraduates to showcase their skills</li>
 				</ul>
 			</div>
 		</div>

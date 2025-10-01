@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount, onDestroy } from "svelte";
 
-    const targetDate = new Date("2025-09-19T11:59:59");
+    const targetDate = new Date("2025-10-06T09:00:00");
 
     let days = 0;
     let hours = 0;
@@ -63,7 +63,7 @@
                     </h2>
                     <p class="text-base-content text-xs sm:text-sm md:text-lg mt-3 sm:mt-4 text-center px-2 sm:px-0">
                         Mark your calendars! MoraXtreme 10.0 is approaching
-                        fast. Get ready for Sri Lanka's most challenging coding
+                        fast.<br/>Get ready for Sri Lanka's most challenging coding
                         competition.
                     </p>
                 </div>
