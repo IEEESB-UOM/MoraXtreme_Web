@@ -8,14 +8,14 @@
         },
         {
             month: "SEP",
-            day: "7",
+            day: "15",
             title: "AWARENESS SESSION",
             description:
                 "Informative session to brief participants on the competition format and guidelines",
         },
         {
-            month: "SEP",
-            day: "15",
+            month: "OCT",
+            day: "2",
             title: "WORKSHOPS",
             description:
                 "Skill-building workshops and mentoring sessions for all registered participants",
