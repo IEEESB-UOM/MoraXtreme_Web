@@ -4,10 +4,10 @@
     { src: "/gallery/main.avif", caption: "Main Event Highlights" },
     { src: "/gallery/org.avif", caption: "Organization Team" },
     { src: "/gallery/champ.avif", caption: "Championship Winners" },
-    { src: "/gallery/1st.avif", caption: "First Place Victory" },
-    { src: "/gallery/2nd.avif", caption: "Second Place Achievement" },
-    { src: "/gallery/1.avif", caption: "Winners" },
-    { src: "/gallery/2.avif", caption: "Winners" },
+    { src: "/gallery/img2.avif", caption: "" },
+    { src: "/gallery/img1.avif", caption: "" },
+    { src: "/gallery/img3.avif", caption: "" },
+    { src: "/gallery/img5.avif", caption: "" },
   ];
 </script>
 
