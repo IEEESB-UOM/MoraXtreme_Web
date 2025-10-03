@@ -33,10 +33,10 @@
 			<div class="glass-card glass-shadow glass-shadow-hover p-8">
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">Competition Format</h2>
 				<div class="text-white text-base leading-relaxed">
-					<p class="mb-4">MoraXtreme consists of two rounds:</p>
+					<p class="mb-4">MoraXtreme 10.0 consists of two rounds:</p>
 					<ul class="list-disc list-inside space-y-2 ml-4">
 						<li><strong>Elimination Round:</strong> A 12-hour online coding competition open to all registered participants from recognized Sri Lankan universities.</li>
-						<li><strong>Final Round:</strong> An 8-hour physical round held at the University of Moratuwa premises where the top teams from the elimination round compete to determine the ultimate champions.</li>
+						<li><strong>Final Round:</strong> An 8-hour physical round held at the University of Moratuwa premises where the top 10 teams from the elimination round compete to determine the ultimate champions.</li>
 					</ul>
 				</div>
 			</div>
@@ -69,7 +69,7 @@
 						<div class="space-y-3">
 							<div class="flex flex-col">
 								<span class="font-bold text-primary">Registration Period:</span>
-								<span>Sep 7th - Sep 19th, 2025</span>
+								<span>Sep 7th - October 1st, 2025</span>
 							</div>
 							<div class="flex flex-col">
 								<span class="font-bold text-primary">Awareness Session:</span>
@@ -77,17 +77,17 @@
 							</div>
 							<div class="flex flex-col">
 								<span class="font-bold text-primary">Workshops:</span>
-								<span>Sep 7th - Oct 5th, 2025</span>
+								<span>October 2nd, October 4th, 2025</span>
 							</div>
 						</div>
 						<div class="space-y-3">
 							<div class="flex flex-col">
 								<span class="font-bold text-primary">Elimination Round:</span>
-								<span>September 20th, 2025</span>
+								<span>October 6th, 2025</span>
 							</div>
 							<div class="flex flex-col">
 								<span class="font-bold text-primary">Final Round:</span>
-								<span>October 12th, 2025</span>
+								<span>October 18th, 2025</span>
 							</div>
 							<div class="flex flex-col">
 								<span class="font-bold text-primary">IEEEXtreme 19.0:</span>
@@ -105,7 +105,7 @@
 			<div class="glass-card glass-shadow glass-shadow-hover p-8">
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">MoraXtreme Awards</h2>
 				<div class="text-white text-base leading-relaxed">
-					<p class="mb-4">All finalists receive certificates of achievement recognizing their performance in MoraXtreme 10.0.</p>
+					<p class="mb-4">All registered teams that make an eligible attempt at MoraXtreme 10.0 will receive digital certificates. All finalists will receive printed certificates of achievement recognizing their performance in MoraXtreme 10.0.</p>
 					<p class="mb-4 font-semibold">Cash prizes will be awarded to the winners as follows:</p>
 					<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
 						<div class="bg-gradient-to-br from-yellow-400/20 to-yellow-600/20 border border-yellow-400/30 rounded-lg p-4 text-center">
