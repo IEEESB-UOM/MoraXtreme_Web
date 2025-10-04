@@ -45,7 +45,7 @@
 	<aside>
 		<img src="/logo.avif" alt="MoraXtreme Logo" class="w-auto h-24" />
 		<p class="font-bold">
-			MoraXtreme 2025<br />Sri Lanka's Largest Algorithmic Coding Competition
+			Sri Lanka's Largest Algorithmic Coding Competition
 		</p>
 		<p>Copyright © 2025 - All rights reserved</p>
 	</aside>

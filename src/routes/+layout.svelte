@@ -1,11 +1,11 @@
 <script lang="ts">
 	import '../app.css';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	
 	let { children } = $props();
 	
 	const siteUrl = 'https://moraxtreme.lk';
-	const currentUrl = $derived(`${siteUrl}${$page.url.pathname}`);
+	const currentUrl = $derived(`${siteUrl}${page.url.pathname}`);
 	const metaTitle = 'MoraXtreme - Sri Lanka\'s Largest Algorithmic Coding Competition';
 	const metaDescription = 'Join MoraXtreme, Sri Lanka\'s premier algorithmic coding competition. Test your programming skills, compete with the best, and win exciting prizes.';
 </script>
@@ -79,11 +79,11 @@
 						</svg>
 					</div>
 					<ul class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base-content">
-						<li><a href="/" class:active={$page.route.id === '/'}>Home</a></li>
+						<li><a href="/" style="{page.url.pathname === '/' ? 'background-color: var(--color-neutral);' : ''};">Home</a></li>
 						<li><a href="https://forms.gle/jiF6QXNBAh4wedrE8">Register</a></li>
-						<li><a href="/competition" class:active={$page.route.id === '/competition'}>Competition</a></li>
-						<li><a href="/faq" class:active={$page.route.id === '/faq'}>FAQ</a></li>
-						
+						<li><a href="/competition" style="{page.url.pathname === '/competition' ? 'background-color: var(--color-neutral);' : ''};">Competition</a></li>
+						<li><a href="/faq" style="{page.url.pathname === '/faq' ? 'background-color: var(--color-neutral);' : ''};">FAQ</a></li>
+
 					</ul>
 				</div>
 				<a href="/" class="btn btn-ghost">
@@ -92,10 +92,9 @@
 			</div>
 			<div class="navbar-center hidden lg:flex">
 				<ul class="menu menu-horizontal px-1">
-					<li><a href="/" class:active={$page.route.id === '/'}>Home</a></li>
-					<li><a href="/competition" class:active={$page.route.id === '/competition'}>Competition</a></li>
-					<li><a href="/faq" class:active={$page.route.id === '/faq'}>FAQ</a></li>
-					
+					<li><a href="/" style="{page.url.pathname === '/' ? 'background-color: var(--color-neutral);' : ''};">Home</a></li>
+					<li><a href="/competition" style="{page.url.pathname === '/competition' ? 'background-color: var(--color-neutral);' : ''};">Competition</a></li>
+					<li><a href="/faq" style="{page.url.pathname === '/faq' ? 'background-color: var(--color-neutral);' : ''};">FAQ</a></li>
 				</ul>
 			</div>
 			<div class="navbar-end">
