@@ -6,7 +6,7 @@
       name: "Sanjula Gathsara",
       role: "Chairman - IEEE student branch UOM",
       organization: [""],
-      email: "sanjulagathsara.ieee.org",
+      email: "sanjulagathsara@ieee.org",
       phone: " +94 70 776 4126",
       imageUrl: "/Contact/sanjula.avif",
     },
@@ -20,7 +20,7 @@
     },
     {
       name: "Sonath Kirindage",
-      role: "Event Chair",
+      role: "Event Chairperson - MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: "",
       email: "sonath.sanvida@gmail.com",
       phone: "+94 710 338 048",
@@ -28,7 +28,7 @@
     },
     {
       name: "Mindiya Karunasinghe",
-      role: "Event Vice Chair",
+      role: "Event Vice Chairperson - MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: "",
       email: "mindiya@ieee.org",
       phone: "+94 71 232 8775",
@@ -36,7 +36,7 @@
     },
     {
       name: "Thamalu Bambaravanage",
-      role: "Event Vice Chair",
+      role: "Event Chairperson - MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: [""],
       email: "thamalu.bambaravanage@ieee.org",
       phone: " +94 707 806 767",
