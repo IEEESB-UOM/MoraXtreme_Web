@@ -11,7 +11,7 @@
 	const metaTitle = 'MoraXtreme - Sri Lanka\'s Largest Algorithmic Coding Competition';
 	const metaDescription = 'Join MoraXtreme, Sri Lanka\'s premier algorithmic coding competition. Test your programming skills, compete with the best, and win exciting prizes.';
 
-	const scrollRoutes = ['about', 'timeline', 'gallery']; // in-page sections
+	const scrollRoutes = ['about', 'timeline', 'gallery', 'contact']; // in-page sections
 
 	let activePath = '';
 
@@ -114,6 +114,7 @@
 						<li><button onclick={(e) => handleNav(e, 'about')}>About</button></li>
 						<li><button onclick={(e) => handleNav(e, 'timeline')}>Timeline</button></li>
 						<li><button onclick={(e) => handleNav(e, 'gallery')}>Gallery</button></li>
+						<li><button onclick={(e) => handleNav(e, 'contact')}>Contact</button></li>
 						<li><a href="/competition" style="{page.url.pathname === '/competition' ? 'background-color: var(--color-neutral);' : ''};">Competition</a></li>
 						<li><a href="/faq" style="{page.url.pathname === '/faq' ? 'background-color: var(--color-neutral);' : ''};">FAQ</a></li>
 
@@ -129,6 +130,7 @@
 					<li><button onclick={(e) => handleNav(e, 'about')}>About</button></li>
 					<li><button onclick={(e) => handleNav(e, 'timeline')}>Timeline</button></li>
 					<li><button onclick={(e) => handleNav(e, 'gallery')}>Gallery</button></li>
+					<li><button onclick={(e) => handleNav(e, 'contact')}>Contact</button></li>
 					<li><a href="/competition" style="{page.url.pathname === '/competition' ? 'background-color: var(--color-neutral);' : ''};">Competition</a></li>
 					<li><a href="/faq" style="{page.url.pathname === '/faq' ? 'background-color: var(--color-neutral);' : ''};">FAQ</a></li>
 				</ul>
