@@ -32,7 +32,7 @@
 		},
 		{
 			question: "What prizes or recognition are given to winners?",
-			answer: `Winners will receive certificates of achievement and cash prizes, with promotional exposure for sponsors and partners during the event.`
+			answer: `Winners will receive certificates of achievement and exciting cash prizes, along with exclusive recognition across MoraXtreme’s official platforms, showcasing their talent to a broad tech community and industry network.`
 		},
 		{
 			question: "Will there be workshops or preparatory sessions?",
@@ -47,6 +47,22 @@
 			answer: `No, registration is completely free of charge.`
 		}
 	];
+
+	/**
+     * @type {null}
+     */
+	let openIndex = null;
+
+	/**
+     * @param {any} index
+     */
+	function toggle(index) {
+		if (openIndex === index) {
+			openIndex = null; 
+		} else {
+			openIndex = index;
+		}
+	}
 </script>
 
 <svelte:head>
@@ -66,19 +82,24 @@
 		</div>
 
 		<div class="max-w-5xl mx-auto space-y-4">
-			{#each faqs as { question, answer } (question)}
-				<div
-					class="collapse collapse-arrow glass-card glass-shadow glass-shadow-hover"
-				>
-					<input type="checkbox" name="faq-accordion" />
-					<div class="collapse-title text-lg font-['Orbitron'] font-bold text-white p-6">
-						{question}
-					</div>
-					<div class="collapse-content rounded-b-xl">
-						<div class="p-6 pt-0">
-							<p class="text-white font-sans text-base leading-relaxed">
-								{@html answer}
-							</p>
+			{#each faqs as { question, answer }, index}
+				<div class="glass-card glass-shadow glass-shadow-hover">
+					<div 
+						class="collapse collapse-arrow"
+						class:collapse-open={openIndex === index}
+					>
+						<div 
+							class="collapse-title text-lg font-['Orbitron'] font-bold text-white p-6 cursor-pointer"
+							on:click={() => toggle(index)}
+						>
+							{question}
+						</div>
+						<div class="collapse-content rounded-b-xl">
+							<div class="p-6 pt-0">
+								<p class="text-white font-sans text-base leading-relaxed">
+									{@html answer}
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>

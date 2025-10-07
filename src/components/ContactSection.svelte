@@ -54,7 +54,7 @@
   ];
 </script>
 
-<div>
+<div id="contact" class="py-20">
   <h2 class="text-4xl md:text-5xl font-bold text-center mb-6">
     <span
       class="text-center text-4xl font-bold drop-shadow-lg font-display text-gradient text-shadow-glow"

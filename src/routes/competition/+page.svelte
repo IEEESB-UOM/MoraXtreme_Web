@@ -35,7 +35,7 @@
 				<div class="text-white text-base leading-relaxed">
 					<p class="mb-4">MoraXtreme 10.0 consists of two rounds:</p>
 					<ul class="list-disc list-inside space-y-2 ml-4">
-						<li><strong>Elimination Round:</strong> A 12-hour online coding competition open to all registered participants from recognized Sri Lankan universities.</li>
+						<li><strong>Elimination Round:</strong> A 12-hour online coding competition open to all registered participants from Sri Lankan universities.</li>
 						<li><strong>Final Round:</strong> An 8-hour physical round held at the University of Moratuwa premises where the top 10 teams from the elimination round compete to determine the ultimate champions.</li>
 					</ul>
 				</div>
@@ -58,6 +58,46 @@
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">Skills Tested</h2>
 				<div class="text-white text-base leading-relaxed">
 					<p>Participants are challenged on a range of algorithmic, mathematical, and programming problems designed to test logic, problem-solving speed, and coding proficiency.</p>
+				</div>
+			</div>
+
+			<!-- Timeline -->
+			<div class="glass-card glass-shadow glass-shadow-hover p-8 hidden">
+				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">Timeline</h2>
+				<div class="text-white text-base leading-relaxed">
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+						<div class="space-y-3">
+							<div class="flex flex-col">
+								<span class="font-bold text-primary">Registration Period:</span>
+								<span>Sep 7th - October 1st, 2025</span>
+							</div>
+							<div class="flex flex-col">
+								<span class="font-bold text-primary">Awareness Session:</span>
+								<span>September 15th, 2025</span>
+							</div>
+							<div class="flex flex-col">
+								<span class="font-bold text-primary">Workshops:</span>
+								<span>October 2nd, October 4th, 2025</span>
+							</div>
+						</div>
+						<div class="space-y-3">
+							<div class="flex flex-col">
+								<span class="font-bold text-primary">Elimination Round:</span>
+								<span>October 6th, 2025</span>
+							</div>
+							<div class="flex flex-col">
+								<span class="font-bold text-primary">Final Round:</span>
+								<span>October 18th, 2025</span>
+							</div>
+							<div class="flex flex-col">
+								<span class="font-bold text-primary">IEEEXtreme 19.0:</span>
+								<span>October 25th, 2025</span>
+							</div>
+						</div>
+					</div>
+					<p class="mt-6 text-sm text-white/80">
+						For more information, please contact the event organizers.
+					</p>
 				</div>
 			</div>
 
