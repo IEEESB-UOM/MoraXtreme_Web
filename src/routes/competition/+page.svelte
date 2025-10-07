@@ -35,7 +35,7 @@
 				<div class="text-white text-base leading-relaxed">
 					<p class="mb-4">MoraXtreme 10.0 consists of two rounds:</p>
 					<ul class="list-disc list-inside space-y-2 ml-4">
-						<li><strong>Elimination Round:</strong> A 12-hour online coding competition open to all registered participants from recognized Sri Lankan universities.</li>
+						<li><strong>Elimination Round:</strong> A 12-hour online coding competition open to all registered participants from Sri Lankan universities.</li>
 						<li><strong>Final Round:</strong> An 8-hour physical round held at the University of Moratuwa premises where the top 10 teams from the elimination round compete to determine the ultimate champions.</li>
 					</ul>
 				</div>
@@ -62,7 +62,7 @@
 			</div>
 
 			<!-- Timeline -->
-			<div class="glass-card glass-shadow glass-shadow-hover p-8">
+			<div class="glass-card glass-shadow glass-shadow-hover p-8 hidden">
 				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">Timeline</h2>
 				<div class="text-white text-base leading-relaxed">
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-4">

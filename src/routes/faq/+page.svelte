@@ -32,7 +32,7 @@
 		},
 		{
 			question: "What prizes or recognition are given to winners?",
-			answer: `Winners will receive certificates of achievement and cash prizes, with promotional exposure for sponsors and partners during the event.`
+			answer: `Winners will receive certificates of achievement and exciting cash prizes, along with exclusive recognition across MoraXtreme’s official platforms, showcasing their talent to a broad tech community and industry network.`
 		},
 		{
 			question: "Will there be workshops or preparatory sessions?",

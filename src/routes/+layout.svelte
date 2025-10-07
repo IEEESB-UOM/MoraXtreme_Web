@@ -1,6 +1,8 @@
 <script lang="ts">
 	import '../app.css';
 	import { page } from '$app/state';
+	import { goto } from '$app/navigation';
+	import { onMount, tick } from 'svelte';
 	
 	let { children } = $props();
 	
@@ -8,6 +10,33 @@
 	const currentUrl = $derived(`${siteUrl}${page.url.pathname}`);
 	const metaTitle = 'MoraXtreme - Sri Lanka\'s Largest Algorithmic Coding Competition';
 	const metaDescription = 'Join MoraXtreme, Sri Lanka\'s premier algorithmic coding competition. Test your programming skills, compete with the best, and win exciting prizes.';
+
+	const scrollRoutes = ['about', 'timeline', 'gallery']; // in-page sections
+
+	let activePath = '';
+
+	onMount(() => {
+		activePath = window.location.pathname;
+	});
+
+	async function handleNav(e: MouseEvent & { currentTarget: EventTarget & HTMLButtonElement; }, route: string) {
+		e.preventDefault();
+
+		if (scrollRoutes.includes(route)) {
+			// If not in home page, navigate to home first
+			if (window.location.pathname !== '/') await goto('/');
+			activePath = '/' + route;
+			await tick();
+			console.log(activePath);
+			
+			setTimeout(() => {
+				const el = document.getElementById(route);
+				if (el) el.scrollIntoView({ behavior: 'smooth' });
+			}, 100); // small delay to ensure element is rendered
+		} else {
+			goto('/' + route);
+		}
+	}	
 </script>
 
 <svelte:head>
@@ -80,7 +109,11 @@
 					</div>
 					<ul class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base-content">
 						<li><a href="/" style="{page.url.pathname === '/' ? 'background-color: var(--color-neutral);' : ''};">Home</a></li>
-						<li><a href="https://forms.gle/jiF6QXNBAh4wedrE8">Register</a></li>
+						<!-- <li><a href="https://forms.gle/jiF6QXNBAh4wedrE8">Register</a></li> -->
+						<li><span class="text-gray-400 font-semibold">Registrations Closed</span></li>
+						<li><button onclick={(e) => handleNav(e, 'about')}>About</button></li>
+						<li><button onclick={(e) => handleNav(e, 'timeline')}>Timeline</button></li>
+						<li><button onclick={(e) => handleNav(e, 'gallery')}>Gallery</button></li>
 						<li><a href="/competition" style="{page.url.pathname === '/competition' ? 'background-color: var(--color-neutral);' : ''};">Competition</a></li>
 						<li><a href="/faq" style="{page.url.pathname === '/faq' ? 'background-color: var(--color-neutral);' : ''};">FAQ</a></li>
 
@@ -93,12 +126,16 @@
 			<div class="navbar-center hidden lg:flex">
 				<ul class="menu menu-horizontal px-1">
 					<li><a href="/" style="{page.url.pathname === '/' ? 'background-color: var(--color-neutral);' : ''};">Home</a></li>
+					<li><button onclick={(e) => handleNav(e, 'about')}>About</button></li>
+					<li><button onclick={(e) => handleNav(e, 'timeline')}>Timeline</button></li>
+					<li><button onclick={(e) => handleNav(e, 'gallery')}>Gallery</button></li>
 					<li><a href="/competition" style="{page.url.pathname === '/competition' ? 'background-color: var(--color-neutral);' : ''};">Competition</a></li>
 					<li><a href="/faq" style="{page.url.pathname === '/faq' ? 'background-color: var(--color-neutral);' : ''};">FAQ</a></li>
 				</ul>
 			</div>
 			<div class="navbar-end">
-				<a href="https://forms.gle/jiF6QXNBAh4wedrE8" class="btn btn-primary hidden lg:flex">Register</a>
+				<!-- <a href="https://forms.gle/jiF6QXNBAh4wedrE8" class="btn btn-primary hidden lg:flex">Register</a> -->
+				<span class="text-gray-400 font-semibold hidden lg:flex">Registrations Closed</span>
 			</div>
 		</div>
 

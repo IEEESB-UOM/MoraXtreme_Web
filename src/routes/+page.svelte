@@ -37,7 +37,7 @@
 
 <HeroSection />
 <AboutSection />
-<CountdownSection />
+<!-- <CountdownSection /> -->
 <Timeline />
 <Gallery />
 <ContactSection />
