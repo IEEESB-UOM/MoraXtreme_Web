@@ -110,7 +110,7 @@
 					<ul class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base-content">
 						<li><a href="/" style="{page.url.pathname === '/' ? 'background-color: var(--color-neutral);' : ''};">Home</a></li>
 						<!-- <li><a href="https://forms.gle/jiF6QXNBAh4wedrE8">Register</a></li> -->
-						<li><span class="text-gray-400 font-semibold">Registrations Closed</span></li>
+						<!-- <li><span class="text-gray-400 font-semibold">Registrations Closed</span></li> -->
 						<li><button onclick={(e) => handleNav(e, 'about')}>About</button></li>
 						<li><button onclick={(e) => handleNav(e, 'timeline')}>Timeline</button></li>
 						<li><button onclick={(e) => handleNav(e, 'gallery')}>Gallery</button></li>
@@ -137,7 +137,7 @@
 			</div>
 			<div class="navbar-end">
 				<!-- <a href="https://forms.gle/jiF6QXNBAh4wedrE8" class="btn btn-primary hidden lg:flex">Register</a> -->
-				<span class="text-gray-400 font-semibold hidden lg:flex">Registrations Closed</span>
+				<!-- <span class="text-gray-400 font-semibold hidden lg:flex">Registrations Closed</span> -->
 			</div>
 		</div>
 
