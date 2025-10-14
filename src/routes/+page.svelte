@@ -8,6 +8,7 @@
 	import ParallaxBg from "../components/ParallaxBg.svelte";
 	import HeroSection from "../components/HeroSection.svelte";
 	import ContactSection from "../components/ContactSection.svelte";
+	import PartnersSection from "../components/PartnersSection.svelte";
 	let showError = false;
 
 	onMount(() => {
@@ -40,6 +41,7 @@
 <!-- <CountdownSection /> -->
 <Timeline />
 <Gallery />
+<PartnersSection />
 <ContactSection />
 <footer class="footer footer-center p-10 bg-base text-base-content">
 	<aside>

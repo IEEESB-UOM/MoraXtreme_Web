@@ -36,7 +36,7 @@
     },
     {
       name: "Thamalu Bambaravanage",
-      role: "Event Chairperson - MoraXtreme 10.0 & IEEEXtreme 19.0",
+      role: "Event Vice Chairperson - MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: [""],
       email: "thamalu.bambaravanage@ieee.org",
       phone: " +94 707 806 767",
