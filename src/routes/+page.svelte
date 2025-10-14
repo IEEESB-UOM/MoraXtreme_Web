@@ -40,8 +40,8 @@
 <AboutSection />
 <!-- <CountdownSection /> -->
 <Timeline />
-<Gallery />
 <PartnersSection />
+<Gallery />
 <ContactSection />
 <footer class="footer footer-center p-10 bg-base text-base-content">
 	<aside>
