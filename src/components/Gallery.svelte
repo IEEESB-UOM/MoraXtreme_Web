@@ -1,9 +1,9 @@
 <script>
   // Replace these with your own images
   const images = [
-    { src: "/gallery/main.avif", caption: "Main Event Highlights" },
-    { src: "/gallery/org.avif", caption: "Organization Team" },
-    { src: "/gallery/champ.avif", caption: "Championship Winners" },
+    { src: "/gallery/main.avif", caption: "" },
+    { src: "/gallery/org.avif", caption: "" },
+    { src: "/gallery/champ.avif", caption: "" },
     { src: "/gallery/img2.avif", caption: "" },
     { src: "/gallery/img1.avif", caption: "" },
     { src: "/gallery/img3.avif", caption: "" },
@@ -41,7 +41,7 @@
         class="group-hover:scale-105 transition duration-300 w-full h-full object-cover"
       />
       <div
-        class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end"
+        class="absolute inset-0 bg-black/50 opacity-0 transition-opacity duration-300 flex items-end"
       >
         <p class="text-white text-lg font-semibold p-4 w-full">
           {images[0].caption}
@@ -61,7 +61,7 @@
             class="group-hover:scale-110 transition duration-300 w-full h-full object-cover"
           />
           <div
-            class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end"
+            class="absolute inset-0 bg-black/50 opacity-0 transition-opacity duration-300 flex items-end"
           >
             <p class="text-white text-sm font-semibold p-2 w-full">
               {img.caption}
