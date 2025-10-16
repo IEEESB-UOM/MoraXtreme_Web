@@ -44,7 +44,7 @@
     },
     {
       name: "Hasaruvi Kodithuwakku",
-      role: "Delegate Handling Lead",
+      role: "Delegate Handling Lead<br/>MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: [""],
       email: "hasaruvikodithuwakku@gmail.com",
       phone: " +94 70 776 4126",

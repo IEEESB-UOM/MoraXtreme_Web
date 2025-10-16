@@ -23,7 +23,9 @@
         class="glass-card glass-shadow glass-shadow-hover p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 bg-gradient-to-br from-slate-500/30 to-slate-300/10"
       >
         <div class="flex items-center justify-center md:justify-end">
-          <h3 class="text-2xl md:text-3xl font-bold font-display text-slate-300">
+          <h3
+            class="text-2xl md:text-3xl font-bold font-display text-slate-300"
+          >
             Platinum Partner
           </h3>
         </div>
@@ -34,38 +36,42 @@
         />
       </div>
 
-      <!-- Gold Partner - Image | Name -->
-
-      <div
-        class="glass-card glass-shadow glass-shadow-hover p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 bg-gradient-to-br from-yellow-600/30 to-yellow-400/10"
-      >
-        <img
-          src="/partners/creative_gold_partner.avif"
-          alt="Creative - Gold Partner"
-          class="max-h-24 md:max-h-32 object-contain order-2 md:order-1"
-        />
-        <div
-          class="flex items-center justify-center md:justify-start order-1 md:order-2"
-        >
-          <h3 class="text-2xl md:text-3xl font-bold font-display text-yellow-400">
-            Gold Partner
-          </h3>
-        </div>
-      </div>
-
       <!-- NextGen Partner - Name | Image -->
 
       <div
         class="glass-card glass-shadow glass-shadow-hover p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 bg-gradient-to-br from-indigo-500/30 to-indigo-300/10"
       >
-        <div class="flex items-center justify-center md:justify-end">
-          <h3 class="text-2xl md:text-3xl font-bold font-display text-indigo-300">
-            Next Gen Partner
-          </h3>
-        </div>
         <img
           src="/partners/ifs_nextgen_partner.avif"
           alt="IFS NextGen Partner"
+          class="max-h-24 md:max-h-32 object-contain order-2 md:order-1"
+        />
+        <div class="flex items-center justify-center md:justify-end order-1 md:order-2">
+          <h3
+            class="text-2xl md:text-3xl font-bold font-display text-indigo-300"
+          >
+            Next Gen Partner
+          </h3>
+        </div>
+      </div>
+
+      <!-- Gold Partner - Image | Name -->
+
+      <div
+        class="glass-card glass-shadow glass-shadow-hover p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 bg-gradient-to-br from-yellow-600/30 to-yellow-400/10"
+      >
+        <div
+          class="flex items-center justify-center md:justify-start"
+        >
+          <h3
+            class="text-2xl md:text-3xl font-bold font-display text-yellow-400"
+          >
+            Gold Partner
+          </h3>
+        </div>
+        <img
+          src="/partners/creative_gold_partner.avif"
+          alt="Creative - Gold Partner"
           class="max-h-24 md:max-h-32 object-contain"
         />
       </div>
