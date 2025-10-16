@@ -25,7 +25,7 @@
            w-full pt-10 sm:pt-4 sm:pl-10 -mt-8 sm:mt-0 sm:-ml-6 text-center sm:text-left"
   >
     <h3 class="text-lg font-bold text-white-900">{contact.name}</h3>
-    <p class="text-sm font-semibold text-white-300 pt-1">{contact.role}</p>
+    <p class="text-sm font-semibold text-white-300 py-2">{@html contact.role}</p>
 
     <!-- <div class="text-white-600 text-sm mb-4">
       {#if Array.isArray(contact.organization)}
