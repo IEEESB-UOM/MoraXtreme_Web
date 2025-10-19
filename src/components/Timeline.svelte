@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+    import { onMount } from 'svelte';
+
     const timelineEvents = [
         {
             month: "SEP",
@@ -42,6 +44,46 @@
                 "Global IEEE programming competition - the ultimate challenge",
         },
     ];
+
+    let timelineContainer: HTMLDivElement;
+    let timelineContent: HTMLDivElement;
+    let translateX = 0;
+
+    onMount(() => {
+        const handleScroll = () => {
+            if (!timelineContainer || !timelineContent) return;
+
+            const rect = timelineContainer.getBoundingClientRect();
+            const viewportHeight = window.innerHeight;
+            
+            // Calculate when the timeline section is in view
+            const sectionTop = rect.top;
+            const sectionHeight = rect.height;
+            
+            // Make scroll range smaller for faster horizontal translation
+            const scrollRange = viewportHeight * 1; // Only half viewport height for effect
+            if (sectionTop < viewportHeight && sectionTop + sectionHeight > 0) {
+                // Calculate scroll progress through a smaller range
+                const progressRaw = (viewportHeight - sectionTop) / scrollRange;
+                const scrollProgress = Math.max(0, Math.min(1, progressRaw));
+
+                // Calculate max translation (timeline content width - container width)
+                const containerWidth = timelineContainer.offsetWidth;
+                const contentWidth = timelineContent.scrollWidth;
+                const maxTranslate = Math.max(0, contentWidth - containerWidth);
+
+                // Apply translation based on scroll progress
+                translateX = -scrollProgress * maxTranslate;
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll(); // Initial call
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    });
 </script>
 
 <section
@@ -63,8 +105,8 @@
             </div>
         </div>
     </div>
-    <div class="w-full overflow-x-auto">
-        <div class="min-w-full lg:px-8">
+    <div class="w-full overflow-hidden" bind:this={timelineContainer}>
+        <div class="min-w-full lg:px-8 transition-transform duration-100 ease-out" bind:this={timelineContent} style="transform: translateX({translateX}px)">
             <ul
                 class="timeline timeline-vertical max-lg:timeline-compact lg:timeline-horizontal items-center py-16 lg:min-w-max"
             >

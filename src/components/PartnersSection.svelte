@@ -50,7 +50,7 @@
           <h3
             class="text-2xl md:text-3xl font-bold font-display text-indigo-300"
           >
-            Next Gen Partner
+            NextGen Partner
           </h3>
         </div>
       </div>
