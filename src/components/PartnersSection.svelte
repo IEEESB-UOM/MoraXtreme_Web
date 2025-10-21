@@ -44,7 +44,7 @@
         <img
           src="/partners/ifs_nextgen_partner.avif"
           alt="IFS NextGen Partner"
-          class="max-h-24 md:max-h-32 object-contain order-2 md:order-1"
+          class="max-h-24 md:max-h-32 object-contain order-2 md:order-1 brightness-110"
         />
         <div class="flex items-center justify-center md:justify-end order-1 md:order-2">
           <h3
@@ -84,7 +84,7 @@
         <img
           src="/partners/zerobeta_bronze_partner.avif"
           alt="ZeroBeta - Bronze Partner"
-          class="max-h-24 md:max-h-32 object-contain order-2 md:order-1 py-5"
+          class="max-h-24 md:max-h-32 object-contain order-2 md:order-1 py-5 brightness-200"
         />
         <div class="flex items-center justify-center md:justify-end order-1 md:order-2">
           <h3
@@ -127,7 +127,7 @@
             <img
               src="/partners/royal_cashew_banner_partner.avif"
               alt="Royal Cashew - Banner Partner"
-              class="w-full h-auto max-h-24 md:max-h-32 object-contain py-1"
+              class="w-full h-auto max-h-24 md:max-h-32 object-contain py-1 brightness-125"
             />
           </div>
         </div>

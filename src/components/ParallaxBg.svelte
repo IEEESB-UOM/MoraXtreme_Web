@@ -43,6 +43,6 @@
     ></div>
     <div
         class="absolute inset-0 w-full h-full"
-        style="background: radial-gradient(circle, rgba(31, 41, 48, 0.7) 0%, rgba(0, 0, 0, 0.8) 100%) 70%;"
+        style="background: radial-gradient(circle, rgba(31, 41, 48, 0.8) 0%, rgba(0, 0, 0, 0.9) 100%) 70%;"
     ></div>
 </div>
