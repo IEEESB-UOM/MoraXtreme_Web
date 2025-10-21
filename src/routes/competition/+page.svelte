@@ -21,7 +21,7 @@
 		<div class="space-y-12">
 			<!-- About MoraXtreme -->
 			<div class="glass-card glass-shadow glass-shadow-hover p-8">
-				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">About MoraXtreme</h2>
+				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">About MoraXtreme 10.0</h2>
 				<div class="space-y-4 text-white text-base leading-relaxed">
 					<p>
 						MoraXtreme is Sri Lanka’s premier annual algorithmic coding competition, organized by the IEEE Student Branch in collaboration with the IEEE Computer Society of the University of Moratuwa. It serves as the national adaptation and preparatory event for the global IEEEXtreme competition, fostering competitive coding skills and innovation among university students islandwide.
@@ -103,7 +103,7 @@
 
 			<!-- Awards -->
 			<div class="glass-card glass-shadow glass-shadow-hover p-8">
-				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">MoraXtreme Awards</h2>
+				<h2 class="text-2xl font-['Orbitron'] font-bold text-white mb-6">MoraXtreme 10.0 Awards</h2>
 				<div class="text-white text-base leading-relaxed">
 					<p class="mb-4">All registered teams that make an eligible attempt at MoraXtreme 10.0 will receive digital certificates. All finalists will receive printed certificates of achievement recognizing their performance in MoraXtreme 10.0.</p>
 					<p class="mb-4 font-semibold">Cash prizes will be awarded to the winners as follows:</p>

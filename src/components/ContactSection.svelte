@@ -7,7 +7,7 @@
       role: "Chairman<br/>IEEE Student Branch<br/>University of Moratuwa",
       organization: [""],
       email: "chanukaanjana01@gmail.com",
-      phone: " +94 71 760 7248",
+      phone: "(+94) 71 760 7248",
       imageUrl: "/Contact/chanuka.avif",
     },
     {
@@ -15,7 +15,7 @@
       role: "Chairman<br/>IEEE Computer Society Student Branch Chapter<br/>University of Moratuwa",
       organization: [""],
       email: "Ameerathiwanka@ieee.org",
-      phone: "+94 71 135 6855",
+      phone: "(+94) 71 135 6855",
       imageUrl: "/Contact/ameera.avif",
     },
     {
@@ -23,7 +23,7 @@
       role: "Event Chairperson<br/>MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: "",
       email: "sonath.sanvida@gmail.com",
-      phone: "+94 710 338 048",
+      phone: "(+94) 710 338 048",
       imageUrl: "/Contact/sonath.avif",
     },
     {
@@ -31,7 +31,7 @@
       role: "Event Vice Chairperson<br/>MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: "",
       email: "mindiya@ieee.org",
-      phone: "+94 71 232 8775",
+      phone: "(+94) 71 232 8775",
       imageUrl: "/Contact/mindiya.avif",
     },
     {
@@ -39,7 +39,7 @@
       role: "Event Vice Chairperson<br/>MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: [""],
       email: "thamalu.bambaravanage@ieee.org",
-      phone: " +94 707 806 767",
+      phone: " (+94) 707 806 767",
       imageUrl: "/Contact/thamalu.avif",
     },
     {
@@ -47,7 +47,7 @@
       role: "Delegate Handling Lead<br/>MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: [""],
       email: "hasaruvikodithuwakku@gmail.com",
-      phone: " +94 70 776 4126",
+      phone: " (+94) 70 776 4126",
       imageUrl: "/Contact/hasaruvi.avif",
     },
     

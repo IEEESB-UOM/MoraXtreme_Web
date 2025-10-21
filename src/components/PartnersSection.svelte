@@ -76,6 +76,25 @@
         />
       </div>
 
+      <!-- Bronze Partner - Name | Image -->
+
+      <div
+        class="glass-card glass-shadow glass-shadow-hover p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 bg-gradient-to-br from-orange-700/30 to-orange-500/10"
+      >
+        <img
+          src="/partners/zerobeta_bronze_partner.avif"
+          alt="ZeroBeta - Bronze Partner"
+          class="max-h-24 md:max-h-32 object-contain order-2 md:order-1 py-5"
+        />
+        <div class="flex items-center justify-center md:justify-end order-1 md:order-2">
+          <h3
+            class="text-2xl md:text-3xl font-bold font-display text-orange-400"
+          >
+            Bronze Partner
+          </h3>
+        </div>
+      </div>
+
       <!-- Banner Partners -->
       <div>
         <h3
@@ -88,9 +107,9 @@
             class="glass-card glass-shadow glass-shadow-hover p-6 md:p-8 flex items-center justify-center bg-gradient-to-br from-white/30 to-white/10"
           >
             <img
-              src="/partners/royal_cashew_banner_partner.avif"
-              alt="Royal Cashew - Banner Partner"
-              class="w-full h-auto max-h-24 md:max-h-32 object-contain"
+              src="/partners/pnyx_banner_partner.avif"
+              alt="Pnyx - Banner Partner"
+              class="w-full h-auto max-h-24 md:max-h-32 object-contain py-5"
             />
           </div>
           <div
@@ -99,7 +118,16 @@
             <img
               src="/partners/xmobile_banner_partner.avif"
               alt="X mobile - Banner Partner"
-              class="w-full h-auto max-h-24 md:max-h-32 object-contain"
+              class="w-full h-auto max-h-24 md:max-h-32 object-contain py-3"
+            />
+          </div>
+          <div
+            class="glass-card glass-shadow glass-shadow-hover p-6 md:p-8 flex items-center justify-center bg-gradient-to-br from-white/30 to-white/10"
+          >
+            <img
+              src="/partners/royal_cashew_banner_partner.avif"
+              alt="Royal Cashew - Banner Partner"
+              class="w-full h-auto max-h-24 md:max-h-32 object-contain py-1"
             />
           </div>
         </div>

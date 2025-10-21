@@ -96,7 +96,7 @@
                 <h2
                     class="text-center text-4xl font-bold drop-shadow-lg font-display text-gradient text-shadow-glow"
                 >
-                    MoraXtreme Timeline
+                    MoraXtreme 10.0 Timeline
                 </h2>
                 <p class="text-base-content text-lg mt-4 text-center">
                     Discover the key milestones and events leading up to the
