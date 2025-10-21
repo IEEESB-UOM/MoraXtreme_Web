@@ -23,7 +23,7 @@
       role: "Event Chairperson<br/>MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: "",
       email: "sonath.sanvida@gmail.com",
-      phone: "(+94) 710 338 048",
+      phone: "(+94) 71 033 8048",
       imageUrl: "/Contact/sonath.avif",
     },
     {
@@ -39,12 +39,12 @@
       role: "Event Vice Chairperson<br/>MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: [""],
       email: "thamalu.bambaravanage@ieee.org",
-      phone: " (+94) 707 806 767",
+      phone: " (+94) 70 780 6767",
       imageUrl: "/Contact/thamalu.avif",
     },
     {
       name: "Hasaruvi Kodithuwakku",
-      role: "Delegate Handling Lead<br/>MoraXtreme 10.0 & IEEEXtreme 19.0",
+      role: "Delegate Handling Committee Lead<br/>MoraXtreme 10.0 & IEEEXtreme 19.0",
       organization: [""],
       email: "hasaruvikodithuwakku@gmail.com",
       phone: " (+94) 70 776 4126",
